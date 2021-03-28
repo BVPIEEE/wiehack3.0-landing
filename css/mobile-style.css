@@ -1,0 +1,410 @@
+@media screen and (max-width: 1300px) {
+  .illustration {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-nav {
+    position: relative;
+    background: linear-gradient(to bottom right, #050e3b, #33032f);
+    padding: 20px 0;
+    transform: scaleY(0) rotateX(-90deg);
+    transition: transform .3s cubic-bezier(0,1.84,.88,.78);
+    transform-origin: top;
+  }
+
+  .hero-section {
+    height: 90vh;
+    position: relative;
+  }
+
+  .wiehack {
+    position: absolute;
+    z-index: 2;
+    font-size: 1.2rem;
+    padding: 25px;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .wiehack h1 {
+    font-family: Poppins;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .wiehack h3 {
+    font-family: Poppins;
+    padding-bottom: 5px;
+    color: #fff;
+  }
+
+  .wiehack h5 {
+    font-size: 18px;
+    font-family: Poppins;
+    color: #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  .illustration {
+    position: relative;
+    z-index: 0;
+    display: none;
+  }
+
+  .wiehack-img {
+    width: 30px;
+    position: absolute;
+    top: 35px;
+    left: 5%;
+    z-index: 0;
+  }
+
+  .icons {
+    padding: 15px;
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+
+  .about-section {
+    height: 115vh;
+    margin-top: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .highlights h1 {
+    padding: 25px;
+    font-size: 22px;
+    font-family: Poppins;
+  }
+
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-bottom: 10px;
+  }
+
+  .countdown li {
+    display: inline-block;
+    font-size: 12px;
+    list-style-type: none;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .countdown li span {
+    display: block;
+    font-size: 30px;
+  }
+
+  .prize {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .prize-card {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: pink;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .card {
+    width: 40%;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eeeeee;
+  }
+
+  .card i {
+    padding: 25px;
+    font-size: 2.5em;
+  }
+
+  .card h3 i {
+    font-size: 2.5rem;
+  }
+
+  .schedule-section {
+    height: 110vh;
+    margin-bottom: 300px;
+    font-size: 1rem;
+  }
+
+  .themes-section {
+    height: 125vh;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: linear-gradient(to right bottom, rgb(41, 3, 63), rgb(105, 3, 109));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .themes-section h1 {
+    margin: center;
+  color: #fff;
+  font-family: Poppins;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  }
+
+  .theme-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .theme-card {
+    width: 80%;
+    height: 220px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eeeeee;
+  }
+
+  .event-schedule {
+    margin-top: 20px;
+  }
+
+  .event-schedule h1 {
+    font-family: Poppins;
+  }
+
+  .schedule-section-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 95%;
+    background-color: white;
+  }
+
+  .section-1 {
+    width: 90%;
+    margin: 30px;
+    margin-top: 30px;
+  }
+
+  .section-1 h2 {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+  }
+
+  .partition {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-top: 2px black solid;
+  }
+
+  .section-2 {
+    width: 90%;
+    margin: 30px;
+    margin-top: 30px;
+  }
+
+  .section-2 h2 {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+  }
+
+  .events-section {
+    position: relative;
+    display: flex;
+    width: 95%;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: #eeeeee;
+  }
+
+  .events {
+    margin-top: 20px;
+  }
+
+  .events h1 {
+    font-family: Poppins;
+  }
+
+  .events-section-section {
+    width: 100%;
+    bottom: 0;
+  }
+
+  .parent {
+    margin: 10px 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .event-card {
+    width: 100%;
+    height: 9vh;
+    border: 1px gray solid;
+  }
+
+  .event-card h2 {
+    color: white;
+    font-size: 22px;
+    font-family: Poppins;
+  }
+
+  .ad-event-card {
+    width: 100%;
+    height: 9vh;
+    border: 1px gray solid;
+  }
+
+  .ad-event-card h2 {
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+  }
+
+  .events-section-section {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+  }
+
+  .sponsors-section {
+    height: 100vh;
+  }
+
+  .sponsors-section-section {
+    height: 100vh;
+    width: 95%;
+    font-size: 1rem;
+  }
+
+  .sponsors h1 {
+    font-family: Poppins;
+  }
+
+  .sponsors {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sponsors-list {
+    padding: 0;
+    height: 72vh;
+  }
+
+  .sponsors-list-list {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sponsors-list-list h5 {
+    font-size: 20px;
+  }
+
+  .mentors {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mentors h1 {
+    font-family: Poppins;
+  }
+
+  .mentors-list {
+    height: 80vh;
+    width: 100%;
+    background-color: lightgrey;
+  }
+
+  .faq-section {
+    height: 100vh;
+  }
+
+  .faq-section-section {
+    width: 95%;
+    font-size: 1rem;
+  }
+
+  .faqs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .faqs-list {
+    height: 90vh;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    height: 25vh;
+    font-size: 0.9rem;
+    background-color: #212529;
+  }
+
+  .footer-contact {
+    display: flex;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  footer h4 {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  footer h4 i {
+    color: blue;
+  }
+}
