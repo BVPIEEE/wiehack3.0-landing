@@ -98,7 +98,7 @@
     align-items: center;
     width: 95%;
     margin-bottom: 10px;
-    margin-left: 5%;
+    margin-left: 3%;
   }
 
   #countdown li {
@@ -144,6 +144,12 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
+  }
+
+  #past {
+    margin-top: 25%;
+    font-family: poppins;
+    color: black;
   }
 /* 
   .card {
@@ -369,8 +375,14 @@
     background-color: lightgrey;
   }
 
+  #faq {
+    font-family: poppins;
+    font-weight: bold;
+  }
+
   .faq-section {
-    height: 100vh;
+    height: 150vh;
+    margin-top: 35%;
   }
 
   .faq-section-section {
@@ -384,11 +396,11 @@
   }
 
   .faqs-list {
-    height: 90vh;
-    margin-bottom: 10px;
+    height: 110vh;
+    margin-top: 10%;
   }
 
-  footer {
+  /* footer {
     height: 25vh;
     font-size: 0.9rem;
     background-color: #212529;
@@ -407,6 +419,6 @@
 
   footer h4 i {
     color: blue;
-  }
+  } */
 }
 
