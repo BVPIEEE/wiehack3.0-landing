@@ -1,0 +1,9 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bvpifcjd/public_html/wiehack3.0/
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
