@@ -63,7 +63,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       ?>
     <div class="container my-4">
      <h1 class="text-center">Login to our website</h1>
-     <form action="/portal/team.php" method="post">
+     <form action="team.php" method="post">
         <div class="form-group">
             <label for="username">Teamname</label>
             <input type="text" class="form-control" id="teamname" name="teamname" aria-describedby="emailHelp" >

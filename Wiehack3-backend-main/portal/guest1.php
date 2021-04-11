@@ -28,7 +28,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
            if($loggedin){
            echo '<li class="nav-item">
-             <a class="nav-link" href="/portal/logout.php">Logout</a>
+             <a class="nav-link" href="logout.php">Logout</a>
            </li>';
          } else {
            exit;

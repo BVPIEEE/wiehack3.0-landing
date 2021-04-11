@@ -29,12 +29,17 @@ session_start();
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="judge2.php">Judge2</a>
          </li>
-
+                  <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round1_score.php">Round 1</a>
+         </li>
+           <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 4</a>
+         </li>
          </ul>';
 
            if($loggedin){
            echo '<li class="nav-item">
-             <a class="nav-link" href="/portal/logout.php">Logout</a>
+             <a class="nav-link" href="logout.php">Logout</a>
            </li>';
          } else {
            exit;
@@ -86,7 +91,7 @@ session_start();
             <td>". $row['teamname'] ."</td>
               <td>". $row['criteria1'] ."</td>
                 <td>". $row['criteria2'] ."</td>
-          <td>". $row['criteria1'] + $row['criteria2'] ." </td>";
+          <td>". $row['criteria1'] ." </td>";
 
              echo "</tr> ";
 

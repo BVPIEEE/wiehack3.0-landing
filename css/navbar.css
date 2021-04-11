@@ -17,7 +17,7 @@ body {
 }
 
 .navbar-nav.navbar-center {
-  font-family: Roboto;
+  font-family: Poppins;
   font-size: 22px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -51,14 +51,19 @@ body {
   margin-left: 5%;
 } */
 
-.navbar-toggle {
-  position: absolute;
+/* .navbar-toggle {
+  position: relative;
   top: 27px;
   right: 20px;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
-}
+} */
+
+
+
+
+
 
 #chkToggle {
   display: none;
@@ -68,7 +73,7 @@ body {
     transform: scaleY(1) rotateX(0deg);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -81,8 +86,8 @@ body {
   #chkToggle:checked + ul.main-nav {
     display: flex;
   }
-
-  .main-nav {
+/* 
+  #mainNavbar {
     padding-bottom: 20px;
     display: flex;
     margin-right: 30px;
@@ -90,19 +95,19 @@ body {
     justify-content: flex-end;
   }
 
-  .main-nav li {
+  #maiNavbar li {
     margin: 0;
     transition: transform .3s ease-out;
-  }
+  } */
 
-  .main-nav li a {
+  #mainNavbar li a {
     color: #fff;
     padding: 10px;
     font-size: 1.4rem;
     transform: scale(1);
   }
 
-  .main-nav li a:hover {
+  #mainNavbar li a:hover {
     color: rgb(223, 97, 235);
     transition: .3s ease-in;
     text-decoration: none;

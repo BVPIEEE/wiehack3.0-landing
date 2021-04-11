@@ -73,7 +73,7 @@ body {
 
   background: url("https://jaxa.netlify.com/home-1/img/bg/feature-bg.png") top center no-repeat;
   background-size: cover;
-  padding: 10px 0;
+  padding: 0 0;
 }
 
 .feature_header {
@@ -204,8 +204,8 @@ body {
 }
 
 .wiehack-img {
-  height: 500px;
-  width: 495px;
+  height: auto;
+  width: 30%;
   position: absolute;
   top: 90px;
   right: 8%;
