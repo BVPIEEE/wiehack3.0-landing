@@ -25,7 +25,7 @@
     font-size: 1.2rem;
     padding: 25px;
     left: 5%;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
   }
 
@@ -88,20 +88,21 @@
 
   .highlights h1 {
     padding: 25px;
-    font-size: 22px;
+    font-size: 32px;
     font-family: Poppins;
   }
 
-  .countdown {
+  #countdown {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65%;
+    width: 95%;
     margin-bottom: 10px;
+    margin-left: 5%;
   }
 
-  .countdown li {
-    display: inline-block;
+  #countdown li {
+   display: inline-block;
     font-size: 12px;
     list-style-type: none;
     padding: 0px 15px;
@@ -109,7 +110,7 @@
     color: #fff;
   }
 
-  .countdown li span {
+  #countdown li span {
     display: block;
     font-size: 30px;
   }
@@ -144,7 +145,7 @@
     justify-content: center;
     margin-top: 40px;
   }
-
+/* 
   .card {
     width: 40%;
     height: 150px;
@@ -155,8 +156,9 @@
     align-items: center;
     text-align: center;
     background-color: #eeeeee;
-  }
+  } */
 
+/* 
   .card i {
     padding: 25px;
     font-size: 2.5em;
@@ -164,7 +166,7 @@
 
   .card h3 i {
     font-size: 2.5rem;
-  }
+  } */
 
   .schedule-section {
     height: 110vh;
@@ -173,26 +175,25 @@
   }
 
   .themes-section {
-    height: 125vh;
-    margin-top: 0;
-    margin-bottom: 10px;
+    height: 16vh;
+    margin-top: 30px;
     background: linear-gradient(to right bottom, rgb(41, 3, 63), rgb(105, 3, 109));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
+  
   }
 
   .themes-section h1 {
-    margin: center;
-  color: #fff;
-  font-family: Poppins;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
+    color: #fff;
+    font-family: Poppins;
+    margin-top: 60px;
+    padding-top: 15%;
   }
 
-  .theme-cards {
+
+  #carouselExampleIndicators {
+    margin-top: 35%;
+  }
+
+  /* .theme-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -208,7 +209,7 @@
     align-items: center;
     text-align: center;
     background-color: #eeeeee;
-  }
+  } */
 
   .event-schedule {
     margin-top: 20px;
@@ -408,3 +409,4 @@
     color: blue;
   }
 }
+
