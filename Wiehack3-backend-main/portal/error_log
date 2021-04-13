@@ -1,0 +1,312 @@
+[07-Apr-2021 11:11:52 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 11:11:52 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 11:12:01 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 11:12:01 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 11:12:05 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 11:12:05 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 11:12:10 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 11:12:10 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 11:13:15 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 11:13:15 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 11:13:15 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 11:13:15 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 11:14:07 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 11:14:07 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 13:03:50 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 13:03:50 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:16:44 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:16:44 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:17:45 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:17:45 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:23:03 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:23:03 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:23:15 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:23:15 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:37:20 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:37:20 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:37:23 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:37:23 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:39:29 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:39:29 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:39:41 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:39:41 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:40:08 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:40:08 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:41:42 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:41:42 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:43:24 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:43:24 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:48:35 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:48:35 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:48:36 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:48:36 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:53:44 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:53:44 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:53:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:53:47 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:54:26 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:54:26 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 15:58:11 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 15:58:11 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[07-Apr-2021 16:00:26 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[07-Apr-2021 16:00:26 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[08-Apr-2021 03:00:51 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[08-Apr-2021 03:00:51 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[08-Apr-2021 03:29:33 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[08-Apr-2021 03:29:33 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/dbconnect.php on line 9
+[08-Apr-2021 06:34:26 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[08-Apr-2021 06:40:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[08-Apr-2021 06:56:46 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[08-Apr-2021 07:02:40 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[08-Apr-2021 07:04:12 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[08-Apr-2021 07:06:46 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[08-Apr-2021 07:07:56 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/portal/dbconnect.php on line 7
+[08-Apr-2021 10:33:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:33:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:33:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:33:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:33:59 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:33:59 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:33:59 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:33:59 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:34:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 10:34:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 10:34:12 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 10:34:12 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 10:48:31 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:48:31 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:48:31 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:48:31 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:48:36 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:48:36 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:48:36 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:48:36 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:02 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:02 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:02 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:02 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:26 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 10:51:26 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 10:51:28 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 10:51:28 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 10:51:28 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:28 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:28 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:28 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:30 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 10:51:30 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 10:51:39 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 10:51:39 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 10:51:40 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 10:51:40 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 10:51:41 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:41 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:41 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 10:51:41 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 12:43:54 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 12:43:54 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 12:43:54 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 12:43:54 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 12:45:18 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 12:45:18 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 12:45:18 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 12:45:18 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 134
+[08-Apr-2021 13:06:01 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:06:01 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:06:01 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:06:01 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:06:06 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:06:06 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:06:08 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 13:06:08 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 13:06:09 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 13:06:09 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 13:06:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:06:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:16:07 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:16:07 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:16:07 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:16:07 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:22:34 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:22:34 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:22:34 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:22:34 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:22:38 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:22:38 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:22:38 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:22:38 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[08-Apr-2021 13:23:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 13:23:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 13:23:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:23:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:23:33 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:23:33 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:23:34 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 13:23:34 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[08-Apr-2021 13:23:36 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:23:36 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:25:43 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[08-Apr-2021 13:25:43 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 97
+[09-Apr-2021 04:00:15 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 04:00:15 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 04:00:15 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 04:00:15 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 10:31:26 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 10:31:26 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 10:31:26 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 10:31:26 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 10:37:06 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 10:37:06 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 10:37:08 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 10:37:08 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 10:37:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 10:37:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 10:40:59 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 10:40:59 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 10:41:06 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 10:41:06 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 10:41:08 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 10:41:08 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 10:41:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 10:41:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 10:41:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 10:41:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 11:08:39 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/guest1.php on line 124
+[09-Apr-2021 11:11:19 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/guest1.php on line 124
+[09-Apr-2021 11:54:09 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/guest1.php on line 108
+[09-Apr-2021 11:54:20 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/guest1.php on line 108
+[09-Apr-2021 12:34:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:34:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:34:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:34:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:34:10 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:34:22 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:34:22 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:34:22 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:37:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:37:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:37:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:37:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:37:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:38:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:38:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:38:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:38:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:38:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:38:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:38:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:38:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:43:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:43:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:43:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:43:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:43:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:45:20 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:45:20 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:45:20 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:45:22 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:45:22 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:45:22 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 12:45:25 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 12:45:25 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 12:45:26 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 12:45:26 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 12:45:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:45:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:45:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:45:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:45:58 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:47:32 America/New_York] PHP Parse error:  syntax error, unexpected 'criteria1' (T_STRING), expecting ',' or ';' in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:47:37 America/New_York] PHP Parse error:  syntax error, unexpected 'criteria1' (T_STRING), expecting ',' or ';' in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:52:38 America/New_York] PHP Parse error:  syntax error, unexpected 'AS' (T_AS), expecting ',' or ';' in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:52:43 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 12:52:43 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 12:53:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 12:53:05 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge2.php on line 96
+[09-Apr-2021 12:53:07 America/New_York] PHP Parse error:  syntax error, unexpected 'AS' (T_AS), expecting ',' or ';' in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:53:10 America/New_York] PHP Parse error:  syntax error, unexpected 'AS' (T_AS), expecting ',' or ';' in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 12:54:38 America/New_York] PHP Parse error:  syntax error, unexpected 'AS' (T_AS), expecting ',' or ';' in /home/bvpifcjd/public_html/portal/admin1.php on line 133
+[09-Apr-2021 13:01:42 America/New_York] PHP Notice:  Undefined index: total in /home/bvpifcjd/public_html/portal/guest1.php on line 105
+[09-Apr-2021 13:01:42 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/guest1.php on line 112
+[09-Apr-2021 13:02:13 America/New_York] PHP Notice:  Undefined index: total in /home/bvpifcjd/public_html/portal/guest1.php on line 105
+[09-Apr-2021 13:02:13 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/guest1.php on line 112
+[09-Apr-2021 13:02:27 America/New_York] PHP Notice:  Undefined index: total in /home/bvpifcjd/public_html/portal/guest1.php on line 105
+[09-Apr-2021 13:02:27 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/guest1.php on line 111
+[09-Apr-2021 13:02:39 America/New_York] PHP Notice:  Undefined index: total in /home/bvpifcjd/public_html/portal/guest1.php on line 105
+[09-Apr-2021 13:02:39 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/portal/guest1.php on line 111
+[09-Apr-2021 13:12:51 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 13:12:51 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 13:12:51 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[09-Apr-2021 13:12:51 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/portal/judge1.php on line 98
+[11-Apr-2021 00:12:04 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 00:12:04 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 00:23:11 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 00:23:11 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 00:55:00 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 00:55:00 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 00:55:25 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 00:55:25 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 02:28:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:28:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:28:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:28:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:28:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:28:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:00 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/judge1.php on line 90
+[11-Apr-2021 02:29:00 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/judge1.php on line 90
+[11-Apr-2021 02:29:00 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/judge1.php on line 90
+[11-Apr-2021 02:29:00 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/judge1.php on line 90
+[11-Apr-2021 02:29:02 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/judge2.php on line 89
+[11-Apr-2021 02:29:02 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/judge2.php on line 89
+[11-Apr-2021 02:29:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:04 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:29:11 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 125
+[11-Apr-2021 02:32:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:32:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:32:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:32:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:32:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:32:50 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:34:25 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:34:25 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:34:25 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:34:25 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:34:25 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 02:34:25 America/New_York] PHP Warning:  A non-numeric value encountered in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/admin1.php on line 130
+[11-Apr-2021 03:10:00 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 03:10:00 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 03:44:34 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 03:44:34 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 03:47:51 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 03:47:51 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 03:49:32 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 03:49:32 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 03:49:43 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 03:49:43 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 03:50:00 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 03:50:00 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 03:50:17 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 03:50:17 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 03:51:27 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 03:51:27 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 03:52:31 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 03:52:31 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 04:22:03 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 04:22:03 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 04:22:12 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 04:22:12 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[11-Apr-2021 04:25:00 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
+[11-Apr-2021 04:25:00 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
