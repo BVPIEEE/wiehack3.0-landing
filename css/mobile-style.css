@@ -1,4 +1,4 @@
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 786px) {
   .illustration {
     display: none;
   }
@@ -23,7 +23,7 @@
     position: absolute;
     z-index: 2;
     font-size: 1.2rem;
-    padding: 25px;
+    padding: 2px;
     left: 5%;
     top: 60%;
     transform: translateY(-50%);
@@ -90,6 +90,7 @@
     padding: 25px;
     font-size: 32px;
     font-family: Poppins;
+    text-align: center;
   }
 
   #countdown {
@@ -105,9 +106,10 @@
    display: inline-block;
     font-size: 12px;
     list-style-type: none;
-    padding: 0px 15px;
+    padding: 5px 15px;
     text-transform: uppercase;
     color: #fff;
+    border-radius: 5px;
   }
 
   #countdown li span {
@@ -147,9 +149,14 @@
   }
 
   #past {
-    margin-top: 25%;
+    margin-top: 30%;
     font-family: poppins;
     color: black;
+  }
+
+  .stat {
+    padding-top: 20px;
+    margin-top: 30px;
   }
 /* 
   .card {
@@ -388,6 +395,7 @@
   .faq-section-section {
     width: 95%;
     font-size: 1rem;
+    height: 150vh;
   }
 
   .faqs {
@@ -396,12 +404,12 @@
   }
 
   .faqs-list {
-    height: 110vh;
-    margin-top: 10%;
+    height: 100%;
+    margin-top: 5%;
+    align-items: initial;
   }
-
-  /* footer {
-    height: 25vh;
+  footer {
+    height: 80vh;
     font-size: 0.9rem;
     background-color: #212529;
   }
@@ -419,6 +427,6 @@
 
   footer h4 i {
     color: blue;
-  } */
+  }
 }
 
