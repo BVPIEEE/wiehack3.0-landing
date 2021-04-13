@@ -8,5 +8,4 @@ deployment:
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R Wiehack3-backend-main $DEPLOYPATH
-    - /bin/cp spondoc.pdf $DEPLOYPATH
 
