@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.container-fluid {
+  margin-top: 16rem;
+  width: 20%;
+  padding: 0px;
+  align-items: center;
+}
+
+.btn {
+  font-family: Poppins, sans-serif;
+  background-color: rgb(0, 122, 255);
+  text-align: center;
+  display: block;
+  height: auto;
+  margin-bottom: 15%;
+  border-radius: 30px;
+  width: 80%;
+  font-size: 15px;
+  transition: 0.5s;
+  padding-top: 20px;
+  margin-left: 10%;
+}
+
+.btn:hover {
+  background-color: rgba(0, 122, 255, 0.5);
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.area{
+   
+    background: linear-gradient(to right, #050e3b, #33032f);  
+    width: 100%;
+    height:100vh;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 5s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-default.scrolled{
+  background: rgba(0, 0, 0, 0.95);
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  min-height: 8vh;
+  font-family: Poppins;
+}
+
+.wiehack-logo {
+  width: 5%;
+  height: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  margin-left: 8%;
+}
+
+.bvpieee-logo {
+  width: 10%;
+  height: auto;
+  margin-right: 15%;
+}
+
+.nav-links {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.nav-links li.links::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: .4s;
+  margin-top: 1px;
+}
+
+.nav-links li.links:hover::after {
+  width: 100%;
+}
+
+.login-btn {
+  border: 1px transparent;
+  border-radius: 30px;
+  background-color: rgba(0, 122, 255);
+  padding: 10px 24px;
+  transition: 0.3s ease;
+  height: auto;
+  width: auto;
+}
+
+.login-btn:hover {
+  background-color: rgba(0, 122, 255, 0.5);
+}
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+  .container-fluid {
+    width: 50%;
+  }
+
+  .btn {
+    margin-left: 10%;
+  }
+
+  .wiehack-logo {
+    width: 15%;
+    height: auto;
+  }
+
+  .bvpieee-logo {
+    display: none;
+  }
+
+  .nav-links {
+    margin-left: 50%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .nav-links {
+    margin-left: 40%;
+  }
+  .bvpieee-logo {
+    display: none;
+  }
+}

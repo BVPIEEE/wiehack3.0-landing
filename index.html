@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <title>WieHack3.0</title>
+  <meta name="keywords"
+    content="Hackathon, wiehack, Hacakthon Delhi, BVPIEEE, Bharati Vidyapeeth College of Engineering, IPU, Coding" />
+
+  <meta name="title" content="WieHack3.0" />
+  <meta name="description" content="Hackathon Landing Page of BVPIEEE" />
+  <meta name="author" href="" content="" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="wieHack3.0" />
+  <meta property="og:title" content="WieHack3.0" />
+  <meta property="og:description" content="Hackathon Landing Page of BVPIEEE" />
+  <meta property="og:image" itemprop="image" content="https://     ******** /logo.png" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <title>WieHack3.0</title>
+
+  <!-- Logo on tab -->
+  <link rel="icon" href="assets/wiehacklogo2.png" />
+
+  <!-- font awesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+
+  <!--css files-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mobile-style.css" />
+  <link rel="stylesheet" href="css/particles.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+
+  <!--google fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Poppins|Roboto|Source+Sans+Pro&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="hero-section" class="section hero-section">
+    <div id="particles-js" class="particles">
+      <nav class="navbar-default fixed-top">
+        <img src="assets/wiehacklogo3.png" class="wiehack-logo">
+        <img src="assets/bvpieeelogo.png" class="bvpieee-logo">
+        <ul class="nav-links">
+          <li class="links"><a href="#past">Highlights</a></li>
+          <li class="links"><a href="#themes">Themes</a></li>
+          <li class="links"><a href="#sponsors-section">Sponsors</a></li>
+          <li class="links"><a href="#faq-section">FAQs</a></li>
+          <li><a href="Wiehack3-backend-main/portal/login.html" class="login-btn">Login</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    
+      <div class="wiehack">
+        <h1 class="animated flipInX">WIEHack3.0</h1>
+        <h3>36 hour international<br>women centric hackathon!</h3>
+        <h5>
+          Organised by BVPIEEE <br />
+        </h5>
+        <div class="icons">
+          <a href="https://github.com/BVPIEEE"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/BVPIEEE"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/bvpieee/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.twitter.com/bvpieee2"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UCyLsLjYz2sGb2AwcsKTJxvQ"><i class="fab fa-youtube"></i></a>
+          <a id="register" class="btn btn-primary" href="Wiehack3-backend-main/portal/index.php" role="button">Register Now</a>
+        </div>
+        
+         
+        
+        <div class="highlights">
+          <h1>Countdown</h1>
+          <div id="countdown" class="container">
+            <ul class="countdown">
+              <li><span id="days"></span>days</li>
+              <li><span id="hours"></span>Hours</li>
+              <li><span id="minutes"></span>Minutes</li>
+              <li><span id="seconds"></span>Seconds</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5ghCQxKKWRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <h1 id="past">WIEHack2.0 Highlights</h1>   
+  <section class="stat" id="stats">
+
+
+    <section class="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="feature_item text-center">
+              <i id="wiehackIcon" class="fas fa-user-friends"></i>
+              <h3 class="feature_title">Over 200 Teams</h3>
+              <p class="feature_text">The previous edition of WIEHack saw over 200 teams take part, comprising of students from various parts of India and the world. 
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature_item text-center">
+              <i id="wiehackIcon" class="fas fa-award"></i>
+              <h3 class="feature_title">Prizes worth 16Lakhs+</h3>
+              <p class="feature_text">The prize money comprised of over INR 16Lakhs with various positions bagging the different prize cut.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature_item text-center">
+              <i id="wiehackIcon" class="fas fa-sign-in-alt"></i>
+              <h3 class="feature_title">600+ Registerations</h3>
+              <p class="feature_text">We saw a healthy amount of registerations in a very short period of time from all over India as well as the world.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- end feature -->
+
+
+
+
+    <!-- <section id="about-section" class="section about-section">
+      <div class="prize">
+        <div class="prize-card">
+          Prizes Worth <br />
+          Rs.16 Lacs    
+        </div>
+        <div class="prize-card">
+          Cash Prize Worth <br />
+          Rs.10000
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card card-clock">
+          <i class="far fa-clock animated bounceIn delay-2s"></i>
+          <h3>36hrs</h3>
+        </div>
+        <div class="card card-themes">
+          <i class="fas fa-laptop-code animated bounceIn delay-2s"></i>
+          <h3>6 Themes</h3>
+        </div>
+        <div class="card card-teams">
+          <i class="fas fa-users animated bounceIn delay-2s"></i>
+          <h3>200+ Teams</h3>
+        </div>
+        <div class="card card-food">
+          <i class="fas fa-hotdog animated bounceIn delay-2s"></i>
+          <h3>Exciting Prizes!</h3>
+        </div>
+      </div>
+    </section> -->
+
+    <!--Themes section-->
+    <section id="themes-section" class="section themes-section">
+      <h1 id="themes">Themes</h1>
+      <div class="container text-center my-3">
+          <div class="row mx-auto my-auto">
+              <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="col-md-4">
+                      <div class="card card-body">
+                        <img class="img-fluid" src="assets/72ppi/Artboard 1.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card card-body">
+                        <img class="img-fluid" src="assets/72ppi/Artboard 4.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card card-body">
+                        <img class="img-fluid" src="assets/72ppi/Artboard 5.png" alt="">
+                      </div>
+                    </div>
+                  </div>   
+                  
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card card-body">
+                        <img class="img-fluid" src="assets/72ppi/Artboard 6.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card card-body">
+                        <img class="img-fluid" src="assets/72ppi/Artboard 7.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card card-body">
+                        <img class="img-fluid" src="assets/72ppi/Artboard 8.png" alt="">
+                      </div>
+                    </div>
+                  </div>  
+
+                  <div class="carousel-item">
+                    <div class="col-md-4">
+                      <div class="card card-body">
+                        <img class="img-fluid" src="assets/72ppi/Artboard 9.png" alt="">
+                      </div>
+                    </div>
+                  </div>  
+
+                </div>
+                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide ="prev">
+                  <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <!-- <section id="schedule-section" class="section schedule-section">
+      <div class="event-schedule">
+        <h1>Event Schedule_</h1>
+      </div>
+      <div class="schedule-section-section">
+        <div class="section-1">
+          <h2 style="text-align: center">DAY 1</h2>
+          <table class="table-fill">
+            <thead>
+              <tr>
+                <td>Hour</td>
+                <td>Description</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10AM</td>
+                <td>
+                  Inauguration Ceremony Opening speech, Mentor and Judges
+                  introduction, general instructions.
+                </td>
+              </tr>
+              <tr>
+                <td>11AM</td>
+                <td>
+                  Hack Begins First solve the problem. Then, write the code.
+                </td>
+              </tr>
+              <tr>
+                <td>2PM</td>
+                <td>Lunch Eat. Code. Repeat 😋</td>
+              </tr>
+              <tr>
+                <td>5PM</td>
+                <td>Mentor Session - Idea Validation</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="partition"></div>
+        <div class="section-2">
+          <h2 style="text-align: center">DAY 2</h2>
+          <table class="table-fill">
+            <thead>
+              <tr>
+                <td>Hour</td>
+                <td>Description</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10AM</td>
+                <td>Hack continues.</td>
+              </tr>
+              <tr>
+                <td>12 Noon</td>
+                <td>Here we eat again 🍔</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>Final Round (Presentation)</td>
+              </tr>
+              <tr>
+                <td>2PM</td>
+                <td>Result and Prize Distribution.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section> -->
+
+    <!--
+            <div class="div9 event-card">event 9</div>
+            <div class="div10 event-card">event 10</div>
+            <div class="div11 event-card">event 11</div>
+            <div class="div12 event-card">event 12</div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+  
+    <section id="sponsors-section" class="section sponsors-section"> 
+       <div class="sponsors-section-section">
+        <div class="sponsors">
+          <h1>Our Speakers</h1>
+          <div class="sponsors-list">
+            <div class="sponsors-list-list">
+              <h5>Alpha Sponsor</h5>
+              <a href="https://devfolio.co">
+                <img src="./assets/dev.png" width="200px" class="" alt="" />
+              </a>
+            </div>
+
+            <div class="sponsors-list-list">
+              <h5>Beta Sponsor</h5>
+              <a href="https://matic.network">
+                <img src="./assets/matic2.png" width="220px" class="" alt="" />
+              </a>
+              <div class="padd"></div>
+              <a href="https://fold.money">
+                <img src="./assets/fold.svg" width="120px" class="" alt="" />
+              </a>
+            </div>
+
+            <div class="sponsors-list-list">
+              <h5>Coding Partner</h5>
+              <div class="sponsors-list-img">
+                <img src="./assets/CNLOGO.svg" width="180px" class="" alt="" />
+                <img src="./assets/index.png" width="280px" class="" alt="" />
+                <img
+                  src="./assets/0ba295b66f676a965ba15303344f9e553b9e5f54381820d3752eee997e0c5d97cec5dbd68de0edd07b62c69b5d6b11ed15dd4655fef05607afd6a9deab3e1cc1.png"
+                  width="200px"
+                  class=""
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        
+    <section id="sponsors-section" class="section sponsors-section"> 
+      <div class="sponsors-section-section">
+      <div class="sponsors">
+        <h1>Our Sponsors</h1>
+        <div class="container">
+          <a id="sponDoc" class="btn btn-primary" href="/assets/spondoc.pdf" role="button">Download our sponsorship brochure from here</a>
+        </div>
+        <div class="sponsors-list">
+          <div class="sponsors-list-list">
+            <h5>To be announced...</h5>
+          </div>
+                <p>Interested in sponsoring WIEHack3.0?<br>Drop us a mail at <a id="mail" href="mailto:wiehack@bvpieee.com">wiehack3.0@bvpieee.com</a><br>We'll be happy to have you on board. </p>
+          </div>
+
+        </section>       
+
+        <div class="past-sponsors">
+          <h1>Past Sponsors</h1s>
+          <section class="past-logos slider">
+            <div class="slide">
+              <img src="assets/Ace.png">
+            </div>
+            <div class="slide">
+              <img src="assets/balsamiq-logo-screen.png">
+            </div>
+            <div class="slide">
+              <img src="assets/bugsee.png">
+            </div>
+            <div class="slide">
+              <img src="assets/cb.png">
+            </div>
+            <div class="slide">
+              <img src="assets/Creativetim.png">
+            </div>
+            <div class="slide">
+              <img src="assets/devfolio.png">
+            </div>
+            <div class="slide">
+              <img src="assets/eatmynews.png">
+            </div>
+            <div class="slide">
+              <img src="assets/github.png">
+            </div>
+            <div class="slide">
+              <img src="assets/houseit.png">
+            </div>
+            <div class="slide">
+              <img src="assets/incubateind.png">
+            </div>
+            <div class="slide">
+              <img src="assets/Incuspaze-Logo-04.png">
+            </div>
+            <div class="slide">
+              <img src="assets/matic.png">
+            </div>
+            <div class="slide">
+              <img src="assets/moochwale.png">
+            </div>
+            <div class="slide">
+              <img src="assets/msp.jpg">
+            </div>
+            <div class="slide">
+              <img src="assets/smartedge.jpeg">
+            </div>
+            <div class="slide">
+              <img src="assets/wolfram.png">
+            </div>
+          </section>
+        </div>
+
+
+        <section id="faq-section"> 
+          <h1 id="faqs">FAQs</h1>
+          <div class="container">
+            <button class="accordion">What is the required team size?</button>
+            <div class="panel">
+                <p>The size of team can be 1 to 4 members. Every team must have at least 1 female member and at most 1 male member.</p>
+            </div>
+
+          <button class="accordion">Can we participate indiviudally?</button>  
+            <div class="panel">
+                <p>Only female participants are allowed to participate individually as one female member per team is necessary.</p>
+            </div>
+
+          <button class="accordion">What is the scheduled date for the event</button>
+            <div class="panel">
+              <p>The event is scheduled on 22 may 2021-23 may 2021.</p>
+            </div>
+            
+          <button class="accordion">What is meant by BVPIEEE</button>
+            <div class="panel">
+              <p>BVPIEEE is the student branch of IEEE at BVCOE. IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.</p>
+            </div>
+
+          <button class="accordion">Is there any participation fee?</button>
+            <div class="panel">
+              <p>There is no participation fee for the event.</p>
+            </div>
+
+
+          <button class="accordion">On what basis will the initial screening take place?</button>
+            <div class="panel">
+              <p>The initial screening of the teams will be based on the LinkedIn profile, GitHub profile and the abstract submitted by the team.</p>
+            </div>     
+            
+          <button class="accordion">What is the eligibility criteria for participating in the event?</button>
+            <div class="panel">
+              <p>To participate in the event, all team members must be enrolled in an undergraduate program</p>
+            </div>
+
+          </div>
+          
+
+        </section>
+
+
+
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- JavaScript Files -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.waypoints.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/particles.js"></script>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
+  <script>
+    $('#recipeCarousel').carousel({
+  interval: 10000
+})
+
+$('.carousel .carousel-item').each(function(){
+    var minPerSlide = 3;
+    var next = $(this).next();
+    if (!next.length) {
+    next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    for (var i=0;i<minPerSlide;i++) {
+        next=next.next();
+        if (!next.length) {
+        	next = $(this).siblings(':first');
+      	}
+        
+        next.children(':first-child').clone().appendTo($(this));
+      }
+});
+
+  </script>
+
+
+  <script>
+    $(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
+  </script>
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let devfolioOptions = {
+        buttonSelector: "#devfolio-apply-now",
+        key: "hackrcdu",
+      };
+
+      let script = document.createElement("script");
+      script.src = "https://apply.devfolio.co";
+      document.head.append(script);
+
+      script.onload = function () {
+        new Devfolio(devfolioOptions);
+      };
+
+      script.onerror = function () {
+        document
+          .querySelector(devfolioOptions.buttonSelector)
+          .addEventListener("click", function () {
+            window.location.href =
+              "https://devfolio.co/external-apply/" + devfolioOptions.key;
+          });
+      };
+    });
+  </script>
+
+<script src="js/nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+<script src="js/past-sponsors.js"></script>
+
+</body>
+
+</html>
