@@ -61,13 +61,14 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
    </head>
    <body>
 
-     <div class="container my-4">
+       <div class="container my-4">
        <table class="table" id="myTable">
        <thead>
          <tr>
            <th scope="col">Sno</th>
            <th scope="col">Teamname</th>
            <th scope="col">Team Leader</th>
+           <th scope="col">Github link</th>
            <th scope="col">uploadfile</th>
          </tr>
        </thead>
@@ -76,7 +77,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
          <?php
        include 'dbconnect.php';
-           $sql = "SELECT sno, teamname, teamhead, uploadfile FROM `portal`";
+           $sql = "SELECT sno, teamname, teamhead, github, uploadfile FROM `portal`";
            $result = mysqli_query($conn, $sql);
            $sno = 0;
            while($row = mysqli_fetch_assoc($result)) {
@@ -85,6 +86,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
                  <th scope='row'>". $sno ."</th>
                  <td>". $row['teamname'] ."</td>
                  <td>". $row['teamhead'] ."</td>"?>
+                 <td>  <a href ="<?php echo $row['github']; ?>" > <?php echo $row['github'] ?> </a></td>
+
                <td>  <a href ="<?php echo "uploads/".$row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
              <?php
                // ". $row['uploadfile'] ."
@@ -95,6 +98,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
        </tbody>
      </table>
+
 
 <h2 class="text-center">Judge's Scores</h2>
 
