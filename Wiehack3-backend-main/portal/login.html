@@ -2,46 +2,59 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/login-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Poppins|Roboto|Source+Sans+Pro&display=swap">
+    <title>WIEHack3.0 Login</title>
+    <meta name="keywords"
+    content="Hackathon, wiehack, Hacakthon Delhi, BVPIEEE, Bharati Vidyapeeth College of Engineering, IPU, Coding" />
 
+  <meta name="title" content="WieHack3.0" />
+    <link rel="icon" href="../../assets/wiehacklogo2.png" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">WieHack 3.0</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="link.php">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
 
-          </ul>
-
-        </div>
+    <nav class="navbar-default fixed-top">
+      <img src="../../assets/wiehacklogo3.png" class="wiehack-logo">
+      <img src="../../assets/bvpieeelogo.png" class="bvpieee-logo">
+      <ul class="nav-links">
+        <li><a href="../../index.html" class="login-btn">Home</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
     </nav>
 
-    <button onclick="location.href='team.php'" type="button" name="button" style="margin-top: 15%; margin-left:45%; padding: 10px">Login as Team</button> <br> <br>
-    <button onclick="location.href='guest.php'" type="button" name="button" style="margin-left:45%; padding: 10px">Login as Guest</button> <br> <br>
-    <button onclick="location.href='admin.php'" type="button" name="button" style="margin-left:45%; padding: 10px">Login as Admin</button>
+    <div class="context">    
+      <div class="container-fluid">
+        <a class="btn btn-primary" href="/Wiehack3-backend-main/portal/team.php" role="button"> <p>Login as Team</p> </a>
+        <a class="btn btn-primary" href="/Wiehack3-backend-main/portal/judge1.php" role="button"><p>Login as Judge</p></a>
+        <a class="btn btn-primary" href="/Wiehack3-backend-main/portal/admin.php" role="button"><p>Login as Admin</p></a>
+      </div>
+      
+    </div>
 
+
+<div class="area" >
+          <ul class="circles">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+          </ul>
+  </div>
+
+
+  <script src="../../js/nav.js"></script>
   </body>
 </html>

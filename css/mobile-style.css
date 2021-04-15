@@ -387,27 +387,10 @@
     font-weight: bold;
   }
 
-  .faq-section {
-    height: 150vh;
-    margin-top: 35%;
+  #faq-section .container {
+    width: 100%;
   }
-
-  .faq-section-section {
-    width: 95%;
-    font-size: 1rem;
-    height: 150vh;
-  }
-
-  .faqs {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .faqs-list {
-    height: 100%;
-    margin-top: 5%;
-    align-items: initial;
-  }
+  
   footer {
     height: 80vh;
     font-size: 0.9rem;
@@ -428,5 +411,9 @@
   footer h4 i {
     color: blue;
   }
+}
+
+#register {
+  margin-top: 10px;
 }
 
