@@ -68,8 +68,15 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
            <th scope="col">Sno</th>
            <th scope="col">Teamname</th>
            <th scope="col">Team Leader</th>
+           <th scope="col">Abstract</th>
            <th scope="col">Github link</th>
-           <th scope="col">uploadfile</th>
+           <th scope="col">Github link 2</th>
+           <th scope="col">Github link 3</th>
+           <th scope="col">Github link 4</th>
+           <th scope="col">Linkedin link</th>
+           <th scope="col">Linkedin link 2</th>
+           <th scope="col">Linkedin link 3</th>
+           <th scope="col">Linkedin link 4</th>
          </tr>
        </thead>
        <tbody>
@@ -85,11 +92,20 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
              echo "  <tr>
                  <th scope='row'>". $sno ."</th>
                  <td>". $row['teamname'] ."</td>
-                 <td>". $row['teamhead'] ."</td>"?>
+                 <td>". $row['teamhead'] ."</td>
+                 <td>". $row['uploadfile'] ."</td>"?>
+                 
                  <td>  <a href ="<?php echo $row['github']; ?>" > <?php echo $row['github'] ?> </a></td>
-
-               <td>  <a href ="<?php echo "uploads/".$row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
-             <?php
+                 <td>  <a href ="<?php echo $row['github1']; ?>" > <?php echo $row['github1'] ?> </a></td>
+                <td>  <a href ="<?php echo $row['github2']; ?>" > <?php echo $row['github2'] ?> </a></td>
+                <td>  <a href ="<?php echo $row['github3']; ?>" > <?php echo $row['github3'] ?> </a></td>
+                 <td>  <a href ="<?php echo $row['linkedin']; ?>" > <?php echo $row['github'] ?> </a></td>
+                 <td>  <a href ="<?php echo $row['linkedin1']; ?>" > <?php echo $row['github'] ?> </a></td>
+                 <td>  <a href ="<?php echo $row['linkedin2']; ?>" > <?php echo $row['github'] ?> </a></td>
+                 <td>  <a href ="<?php echo $row['linkedin3']; ?>" > <?php echo $row['github'] ?> </a></td>
+    
+             
+                   <?php
                // ". $row['uploadfile'] ."
                   echo "</tr> ";
 
@@ -120,7 +136,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
     <?php
   include 'dbconnect.php';
-      $sql1 = "SELECT sno, username, teamname, criteria1, criteria2 FROM judge1";
+      $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1";
       $result = mysqli_query($conn, $sql1);
       $sno = 0;
       while($row = mysqli_fetch_assoc($result)) {
@@ -131,7 +147,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
             <td>". $row['teamname'] ."</td>
               <td>". $row['criteria1'] ."</td>
                 <td>". $row['criteria2'] ."</td>
-          <td>". $row['criteria1'] ." </td>";
+          <td>". $row['Total'] ." </td>";
 
              echo "</tr> ";
 

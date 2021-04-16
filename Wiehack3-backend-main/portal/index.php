@@ -108,7 +108,7 @@ body{
       $ins=mysqli_query($conn, "INSERT INTO portal(teamname, password, teamhead, email, contact, choice2, college, branch, github, linkedin, portfolio, choice, name2, email2, contact2, choice3, college1, branch1, github2, linkedin2, portfolio2, name3, email3, contact3, choice4, college2, branch2, github3, linkedin3, portfolio3, name4, email4, contact4, choice5, college3, branch3, github4, linkedin4, portfolio4,uploadfile) VALUES('$teamname', '$password', '$teamhead',  '$email', '$contact', '$choice2', '$college', '$branch', '$github', '$linkedin', '$portfolio', '$choice', '$name2', '$email2', '$contact2', '$choice3', '$college1', '$branch1', '$github2', '$linkedin2', '$portfolio2', '$name3', '$email3', '$contact3', '$choice4', '$college2', '$branch2', '$github3', '$linkedin3', '$portfolio3', '$name4', '$email4', '$contact4', '$choice5', '$college3', '$branch3', '$github4', '$linkedin4', '$portfolio4', '$uploadfile')");
       if($ins)
       {
-          echo "<script>alert('Thanks, Your contribution is submitted successfully')</script>";
+          echo "<script>alert('Thanks, Your Registration is submitted successfully. Your selection will be notified via email. After selection you will be able to login')</script>";
   		echo "<script>window.open('index.php','_self')</script>";
       }
       else
@@ -328,8 +328,11 @@ body{
     </div>
 
     <div class="mb-3">
-      <label for="TextInput" class="form-label"> Abstract(500 words limit)</label>
-      <input type="text" id="uploadfile" name="uploadfile" class="form-control" style="width: 70%; height: 200px;" placeholder="">
+      <label for="TextInput" class="form-label"> Abstract(500 words limit) <span style="color: red">*</span></label>
+      
+        <textarea id="uploadfile" name="uploadfile" class="form-control" style="width: 70%; height: 200px;" rows="4" cols="50" required>
+
+    </textarea>
     </div>
 <br>
 <br>
