@@ -241,19 +241,19 @@ body{
     <h3>3rd Member</h3>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Name </label>
-      <input type="text" id="name2" name="name2" class="form-control" style="width: 70%" placeholder=" Name">
+      <input type="text" id="name3" name="name3" class="form-control" style="width: 70%" placeholder=" Name">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> E-mail id</label>
-      <input type="email" id="email2" name="email2" class="form-control" style="width: 70%" placeholder="E-mail">
+      <input type="email" id="email3" name="email3" class="form-control" style="width: 70%" placeholder="E-mail">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Contact Number</label>
-      <input type="number" id="contact2" name="contact2" class="form-control" style="width: 70%" placeholder=" Contact Number">
+      <input type="number" id="contact3" name="contact3" class="form-control" style="width: 70%" placeholder=" Contact Number">
     </div>
 
     <label for="Select" class="form-label"> Gender</label>
-          <select id="choice3" name="choice3" style="width: 25%" class="form-select">
+          <select id="choice4" name="choice4" style="width: 25%" class="form-select">
             <option> select</option>
             <option> Male</option>
             <option> Female</option>
@@ -261,24 +261,24 @@ body{
           </select> <br>
     <div class="mb-3">
           <label for="TextInput" class="form-label">Name of College</label>
-          <input type="text" id="college1" name="college1" class="form-control" style="width: 70%" placeholder="College Name">
+          <input type="text" id="college2" name="college2" class="form-control" style="width: 70%" placeholder="College Name">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label">Branch</label>
-      <input type="text" id="branch1" name="branch1" class="form-control" style="width: 70%" placeholder=" Branch Name">
+      <input type="text" id="branch2" name="branch2" class="form-control" style="width: 70%" placeholder=" Branch Name">
     </div>
 
     <div class="mb-3">
       <label for="TextInput" class="form-label">Github Profile link</label>
-      <input type="text" id="github2" name="github2" class="form-control" style="width: 70%" placeholder="Github Profile">
+      <input type="text" id="github3" name="github3" class="form-control" style="width: 70%" placeholder="Github Profile">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Linkedin Profile link</label>
-      <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="Linkedin Profile">
+      <input type="text" id="linkedin3" name="linkedin3" class="form-control" style="width: 70%" placeholder="Linkedin Profile">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Portfolio(If Any)</label>
-      <input type="text" id="portfolio2" name="portfolio2" class="form-control" style="width: 70%" placeholder="Portfolio Link">
+      <input type="text" id="portfolio3" name="portfolio3" class="form-control" style="width: 70%" placeholder="Portfolio Link">
     </div>
 
 
@@ -287,19 +287,19 @@ body{
   <h3>4th Member</h3>
   <div class="mb-3">
       <label for="TextInput" class="form-label"> Name </label>
-      <input type="text" id="name2" name="name2" class="form-control" style="width: 70%" placeholder=" Name">
+      <input type="text" id="name4" name="name4" class="form-control" style="width: 70%" placeholder=" Name">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> E-mail id</label>
-      <input type="email" id="email2" name="email2" class="form-control" style="width: 70%" placeholder="E-mail">
+      <input type="email" id="email4" name="email4" class="form-control" style="width: 70%" placeholder="E-mail">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Contact Number</label>
-      <input type="number" id="contact2" name="contact2" class="form-control" style="width: 70%" placeholder=" Contact Number">
+      <input type="number" id="contact4" name="contact4" class="form-control" style="width: 70%" placeholder=" Contact Number">
     </div>
 
     <label for="Select" class="form-label"> Gender</label>
-          <select id="choice3" name="choice3" style="width: 25%" class="form-select">
+          <select id="choice5" name="choice5" style="width: 25%" class="form-select">
             <option> select</option>
             <option> Male</option>
             <option> Female</option>
@@ -307,24 +307,24 @@ body{
           </select> <br>
     <div class="mb-3">
           <label for="TextInput" class="form-label">Name of College</label>
-          <input type="text" id="college1" name="college1" class="form-control" style="width: 70%" placeholder="College Name">
+          <input type="text" id="college3" name="college3" class="form-control" style="width: 70%" placeholder="College Name">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label">Branch</label>
-      <input type="text" id="branch1" name="branch1" class="form-control" style="width: 70%" placeholder=" Branch Name">
+      <input type="text" id="branch3" name="branch3" class="form-control" style="width: 70%" placeholder=" Branch Name">
     </div>
 
     <div class="mb-3">
       <label for="TextInput" class="form-label">Github Profile link</label>
-      <input type="text" id="github2" name="github2" class="form-control" style="width: 70%" placeholder="Github Profile">
+      <input type="text" id="github4" name="github4" class="form-control" style="width: 70%" placeholder="Github Profile">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Linkedin Profile link</label>
-      <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="Linkedin Profile">
+      <input type="text" id="linkedin4" name="linkedin4" class="form-control" style="width: 70%" placeholder="Linkedin Profile">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Portfolio(If Any)</label>
-      <input type="text" id="portfolio2" name="portfolio2" class="form-control" style="width: 70%" placeholder="Portfolio Link">
+      <input type="text" id="portfolio4" name="portfolio4" class="form-control" style="width: 70%" placeholder="Portfolio Link">
     </div>
 
     <div class="mb-3">

@@ -84,7 +84,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
          <?php
        include 'dbconnect.php';
-           $sql = "SELECT sno, teamname, teamhead, github, uploadfile FROM `portal`";
+           $sql = "SELECT sno, teamname, teamhead, github, github2, github3, github4, linkedin, linkedin2, linkedin3, linkedin4, uploadfile FROM `portal`";
            $result = mysqli_query($conn, $sql);
            $sno = 0;
            while($row = mysqli_fetch_assoc($result)) {
@@ -96,13 +96,13 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
                  <td>". $row['uploadfile'] ."</td>"?>
                  
                  <td>  <a href ="<?php echo $row['github']; ?>" > <?php echo $row['github'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['github1']; ?>" > <?php echo $row['github1'] ?> </a></td>
-                <td>  <a href ="<?php echo $row['github2']; ?>" > <?php echo $row['github2'] ?> </a></td>
+                 <td>  <a href ="<?php echo $row['github2']; ?>" > <?php echo $row['github2'] ?> </a></td>
                 <td>  <a href ="<?php echo $row['github3']; ?>" > <?php echo $row['github3'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['linkedin']; ?>" > <?php echo $row['github'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['linkedin1']; ?>" > <?php echo $row['github'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['linkedin2']; ?>" > <?php echo $row['github'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['linkedin3']; ?>" > <?php echo $row['github'] ?> </a></td>
+                <td>  <a href ="<?php echo $row['github4']; ?>" > <?php echo $row['github4'] ?> </a></td>
+                 <td>  <a href ="<?php echo $row['linkedin']; ?>" > <?php echo $row['linkedin'] ?> </a></td>
+                 <td>  <a href ="<?php echo $row['linkedin2']; ?>" > <?php echo $row['linkedin2'] ?> </a></td>
+                 <td>  <a href ="<?php echo $row['linkedin3']; ?>" > <?php echo $row['linkedin3'] ?> </a></td>
+                 <td>  <a href ="<?php echo $row['linkedin4']; ?>" > <?php echo $row['linkedin4'] ?> </a></td>
     
              
                    <?php
