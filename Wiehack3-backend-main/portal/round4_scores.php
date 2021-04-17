@@ -33,7 +33,7 @@ session_start();
            <a class="nav-link active" aria-current="page" href="round1_score.php">Round 1</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 4 </a>
+           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 3 </a>
          </li>
 
          </ul>';
@@ -62,7 +62,7 @@ session_start();
    </head>
    <body>
 <br>
-<h2 class="text-center">Round 4 scores </h2>
+<h2 class="text-center">Round 3 scores </h2>
 <br><br>
 <div class="container my-4">
   <table class="table" id="myTable">

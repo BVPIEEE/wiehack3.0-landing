@@ -8,7 +8,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
     // $sql = "Select * from users where username='$username' AND password='$password'";
-    $sql = "Select * from admin where username ='$username'";
+    $sql = "Select * from admin where username ='$username' AND password='$password'";
     $result = mysqli_query($conn, $sql);
     $num = mysqli_num_rows($result);
   //if ($num == 1){
@@ -17,6 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 session_start();
                 $_SESSION['loggedin'] = true;
                 $_SESSION['username'] = $username;
+                $_SESSION['password'] = $password;
                 header("location: admin1.php");
             }
 
