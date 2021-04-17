@@ -33,7 +33,7 @@ session_start();
            <a class="nav-link active" aria-current="page" href="round1_score.php">Round 1</a>
          </li>
            <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 3</a>
+           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 4</a>
          </li>
          </ul>';
 
@@ -80,18 +80,19 @@ session_start();
 
     <?php
   include 'dbconnect.php';
-        $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1 WHERE username='Sample1'";
+      $sql1 = "SELECT sno, username, teamname, criteria1, criteria2 FROM judge1 WHERE username='Sample1'";
       $result = mysqli_query($conn, $sql1);
       $sno = 0;
       while($row = mysqli_fetch_assoc($result)) {
         $sno = $sno + 1;
         echo "  <tr>
             <th scope='row'>". $sno ."</th>
-            <th scope='row'>". $row['username'] ."</th>
-          <td>". $row['teamname'] ."</td>
-            <td>". $row['criteria1'] ."</td>
-              <td>". $row['criteria2'] ."</td>
-        <td>". $row['Total'] ." </td>";
+              <th scope='row'>". $row['username'] ."</th>
+            <td>". $row['teamname'] ."</td>
+              <td>". $row['criteria1'] ."</td>
+                <td>". $row['criteria2'] ."</td>
+          <td>". $row['criteria1'] ." </td>";
+
              echo "</tr> ";
 
       }

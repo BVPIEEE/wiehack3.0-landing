@@ -136,7 +136,6 @@ body {
 
 .stat {
   padding-top: 80px;
-  padding-bottom: 80px;
   font-family:  Poppins;
   margin-top: 10px;
 }
@@ -1272,5 +1271,49 @@ nav {
 }
 
 
+#footer-section {
+  margin-top: 13rem;
+  height: 35vh;
+  background-color: black;
+}
+
+#footer-section h3 {
+  font-size: 1.3rem;
+  color: white;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+#contact {
+  padding-top: 2rem;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+}
 
 
+
+.icons-footer {
+  padding-top: 15px;
+  padding-left: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.icons-footer a {
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 10px;
+  margin-left: 3px;
+}
+
+.icons-footer a:hover {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+#footer-section p{
+  color: white;
+  text-align: center;
+  padding-top: 4%;
+}

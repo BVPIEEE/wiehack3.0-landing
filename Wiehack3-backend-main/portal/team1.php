@@ -23,18 +23,12 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="#">Home</a>
          </li>
-       <!-- <li class="nav-item">
+        <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="2.php">Round 1</a>
          </li>
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="3.php">Round 4</a>
-         </li> -->
-           <li class="nav-item">
-     <a class="nav-link disabled" href="2.php" tabindex="-1" aria-disabled="true">Round 1</a>
-   </li>
-     <li class="nav-item">
-     <a class="nav-link disabled" href="3.php" tabindex="-1" aria-disabled="true">Round 3</a>
-   </li>
+         </li>
 
          </ul>';
 

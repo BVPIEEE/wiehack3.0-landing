@@ -390,27 +390,7 @@
   #faq-section .container {
     width: 100%;
   }
-  
-  footer {
-    height: 80vh;
-    font-size: 0.9rem;
-    background-color: #212529;
-  }
 
-  .footer-contact {
-    display: flex;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  footer h4 {
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-
-  footer h4 i {
-    color: blue;
-  }
 }
 
 #register {

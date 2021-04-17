@@ -61,22 +61,14 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
    </head>
    <body>
 
-       <div class="container my-4">
+     <div class="container my-4">
        <table class="table" id="myTable">
        <thead>
          <tr>
            <th scope="col">Sno</th>
            <th scope="col">Teamname</th>
            <th scope="col">Team Leader</th>
-           <th scope="col">Abstract</th>
-           <th scope="col">Github link</th>
-           <th scope="col">Github link 2</th>
-           <th scope="col">Github link 3</th>
-           <th scope="col">Github link 4</th>
-           <th scope="col">Linkedin link</th>
-           <th scope="col">Linkedin link 2</th>
-           <th scope="col">Linkedin link 3</th>
-           <th scope="col">Linkedin link 4</th>
+           <th scope="col">uploadfile</th>
          </tr>
        </thead>
        <tbody>
@@ -84,7 +76,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
          <?php
        include 'dbconnect.php';
-           $sql = "SELECT sno, teamname, teamhead, github, github2, github3, github4, linkedin, linkedin2, linkedin3, linkedin4, uploadfile FROM `portal`";
+           $sql = "SELECT sno, teamname, teamhead, uploadfile FROM `portal`";
            $result = mysqli_query($conn, $sql);
            $sno = 0;
            while($row = mysqli_fetch_assoc($result)) {
@@ -92,20 +84,9 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
              echo "  <tr>
                  <th scope='row'>". $sno ."</th>
                  <td>". $row['teamname'] ."</td>
-                 <td>". $row['teamhead'] ."</td>
-                 <td>". $row['uploadfile'] ."</td>"?>
-                 
-                 <td>  <a href ="<?php echo $row['github']; ?>" > <?php echo $row['github'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['github2']; ?>" > <?php echo $row['github2'] ?> </a></td>
-                <td>  <a href ="<?php echo $row['github3']; ?>" > <?php echo $row['github3'] ?> </a></td>
-                <td>  <a href ="<?php echo $row['github4']; ?>" > <?php echo $row['github4'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['linkedin']; ?>" > <?php echo $row['linkedin'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['linkedin2']; ?>" > <?php echo $row['linkedin2'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['linkedin3']; ?>" > <?php echo $row['linkedin3'] ?> </a></td>
-                 <td>  <a href ="<?php echo $row['linkedin4']; ?>" > <?php echo $row['linkedin4'] ?> </a></td>
-    
-             
-                   <?php
+                 <td>". $row['teamhead'] ."</td>"?>
+               <td>  <a href ="<?php echo "uploads/".$row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
+             <?php
                // ". $row['uploadfile'] ."
                   echo "</tr> ";
 
@@ -114,7 +95,6 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
        </tbody>
      </table>
-
 
 <h2 class="text-center">Judge's Scores</h2>
 
@@ -136,7 +116,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
     <?php
   include 'dbconnect.php';
-      $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1";
+      $sql1 = "SELECT sno, username, teamname, criteria1, criteria2 FROM judge1";
       $result = mysqli_query($conn, $sql1);
       $sno = 0;
       while($row = mysqli_fetch_assoc($result)) {
@@ -147,7 +127,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
             <td>". $row['teamname'] ."</td>
               <td>". $row['criteria1'] ."</td>
                 <td>". $row['criteria2'] ."</td>
-          <td>". $row['Total'] ." </td>";
+          <td>". $row['criteria1'] ." </td>";
 
              echo "</tr> ";
 

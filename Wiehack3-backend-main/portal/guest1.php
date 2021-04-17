@@ -112,12 +112,11 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 include("dbconnect.php");
 if(isset($_POST['submit']))
 {
-       $username = $_SESSION['username'];
+     $username = $_SESSION['username'];
      $teamname = $_POST["teamname"];
      $criteria1 = $_POST["criteria1"];
      $criteria2 = $_POST["criteria2"];
-     $total = $criteria1 + $criteria2;
-     $sql = "INSERT INTO judge1(username, teamname, criteria1, criteria2, total) VALUES('$username', '$teamname', '$criteria1', '$criteria2', '$total')";
+     $sql = "INSERT INTO judge1(username, teamname, criteria1, criteria2) VALUES('$username', '$teamname', '$criteria1', '$criteria2')";
      $result = mysqli_query($conn, $sql);
      if($result) {
         echo "Data is inserted successfully";
