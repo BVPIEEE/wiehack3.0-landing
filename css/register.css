@@ -27,26 +27,25 @@ body {
 
 
 #rules h1 {
-  margin-top: 5%;
-  font-family: Jost;
-  color: black
-}
-
-
-.card {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  background-color: white;
-  width: 550px;
-  height: 250px;
-  margin: auto;
-  border-radius: 20px;
+  margin-top: 3%;
+  font-family: Jost;
+  color: white;
+  font-weight: 700;
 }
-.card p{
+
+
+#rules p{
+  display: flex;
   padding-left: 5%;
   margin-top: 3%;
   font-family: Jost;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-weight: 500;
 }
 
 

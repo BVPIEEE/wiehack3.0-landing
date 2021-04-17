@@ -45,9 +45,9 @@ body{
     </nav>
       
 
-    <div id="rules" class ="card">
+    <div id="rules">
       <h1>RULES</h1>
-      <p>1)The maximum team size can be upto 4 members.<br> 2)The team must have atleast 1 female member and atmost 1 male member. <br><br>*NOTE:If your team has more than 1 male member, your team will be disqualified.
+      <p>1) The maximum team size can be upto 4 members.<br> 2) The team must have atleast 1 female member and atmost 1 male member. <br><br>*NOTE:If your team has more than 1 male member, your team will be disqualified.
       </p>
     </div>
 
@@ -111,6 +111,7 @@ body{
 <label for="Select" class="form-label"> Team members(including head of team) <span style="color: red">*</span></label>
       <select id="choice" name="choice" style="width: 25%" class="form-select" required>
         <option value=""> select</option>
+        <option value=""> 1</option>
         <option value=""> 2</option>
         <option value=""> 3</option>
         <option value=""> 4</option>
