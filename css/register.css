@@ -5,17 +5,54 @@
     padding: 0px;
 }
 
-body{
-    font-family: 'Exo', sans-serif;
+
+body {
+    background: linear-gradient(to right, #050e3b, #33032f, #5b1594);
+    background-size: 400% 400%;
+    animation: gradient 35s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 
-.container-fluid {
-  margin-top: 16rem;
-  width: 20%;
-  padding: 0px;
+
+#rules h1 {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  margin-top: 3%;
+  font-family: Jost;
+  color: white;
+  font-weight: 700;
 }
+
+
+#rules p{
+  display: flex;
+  padding-left: 5%;
+  margin-top: 3%;
+  font-family: Jost;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+}
+
+
+ .container-fluid {
+    color: white;
+    padding-top: 2%;
+} 
 
 .btn {
   font-family: Poppins, sans-serif;
@@ -30,6 +67,7 @@ body{
   transition: 0.5s;
   padding-top: 20px;
   margin-left: 10%;
+  
 }
 
 .btn:hover {
@@ -40,7 +78,6 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    z-index: 1;
     
 }
 
@@ -190,7 +227,7 @@ nav {
 
 .nav-links {
   display: flex;
-  width: 30%;
+  width: 20%;
   justify-content: space-around;
   margin-top: 20px;
   margin-left: 30%;
@@ -229,6 +266,7 @@ nav {
   padding: 10px 24px;
   transition: 0.3s ease;
   height: auto;
+  z-index: 10;
   width: auto;
 }
 
@@ -254,9 +292,6 @@ nav {
 }
 
 @media screen and (max-width: 880px) {
-  .container-fluid {
-    width: 50%;
-  }
 
   .btn {
     margin-left: 10%;
