@@ -164,10 +164,10 @@ body{
     <label for="Select" class="form-label"> Gender <span style="color: red">*</span></label>
 
           <select id="choice2" name="choice2" class="form-select" style="width: 25%" required>
-            <option value=""> select</option>
-            <option value=""> Male</option>
-            <option value=""> Female</option>
-            <option value=""> Other</option>
+            <option> Select</option>
+            <option> Male</option>
+            <option> Female</option>
+            <option> Other</option>
           </select> <br>
     <div class="mb-3">
           <label for="TextInput" class="form-label">Name of College <span style="color: red">*</span></label>
@@ -193,11 +193,11 @@ body{
 
 <label for="Select" class="form-label"> Team members(including head of team) <span style="color: red">*</span></label>
       <select id="choice" name="choice" style="width: 25%" class="form-select" required>
-        <option value=""> select</option>
-        <option value=""> 1</option>
-        <option value=""> 2</option>
-        <option value=""> 3</option>
-        <option value=""> 4</option>
+        <option> Select</option>
+        <option> 1</option>
+        <option> 2</option>
+        <option> 3</option>
+        <option> 4</option>
       </select>
 <br>
 
