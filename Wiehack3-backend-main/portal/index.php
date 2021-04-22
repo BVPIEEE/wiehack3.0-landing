@@ -184,7 +184,6 @@ body{
             <option> Male</option>
             <option> Female</option>
             <option> Other</option>
-<<<<<<< HEAD
           </select> <br> <br>
     <div class="mb-3">
           <label for="TextInput" class="form-label">Name of College <span style="color: red">*</span></label> <br>
@@ -198,9 +197,6 @@ body{
       <input type="text" id="address1" name="address1" class="form-control" style="width: 70%" placeholder="Full College Address" required>
     </div>
 
-=======
-          </select> <br>
->>>>>>> 26fe51fb59ec0807d127ece69b5e046060950e45
     <div class="mb-3">
           <label for="TextInput" class="form-label">College Pin Code <span style="color: red">*</span></label>
           <input type="text" id="collegepin1" name="collegepin1" class="form-control" style="width: 70%" placeholder="College Pin code" required>
