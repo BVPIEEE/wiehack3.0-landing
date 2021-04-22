@@ -310,3 +310,7 @@
 [11-Apr-2021 04:22:12 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
 [11-Apr-2021 04:25:00 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 7
 [11-Apr-2021 04:25:00 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/dbconnect.php on line 9
+[18-Apr-2021 12:40:39 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/index.php on line 125
+[19-Apr-2021 04:09:56 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/index.php on line 125
+[19-Apr-2021 04:11:04 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/index.php on line 125
+[19-Apr-2021 04:12:54 America/New_York] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/bvpifcjd/public_html/wiehack3.0/Wiehack3-backend-main/portal/index.php on line 125

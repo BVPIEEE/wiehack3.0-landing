@@ -14,6 +14,14 @@ body{
 
 
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QVVGLTTCB3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QVVGLTTCB3');
+</script>
  <script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -43,7 +51,7 @@ body{
         <div class="line3"></div>
       </div>
     </nav>
-      
+
 
     <div id="rules">
       <h1>RULES</h1>
@@ -65,6 +73,8 @@ body{
 
     $choice2 = $_POST["choice2"];
     $college = $_POST["college"];
+    $address1 = $_POST["address1"];
+    $collegepin1 = $_POST["collegepin1"];
     $branch = $_POST["branch"];
     $github = $_POST["github"];
     $linkedin = $_POST["linkedin"];
@@ -77,6 +87,8 @@ body{
     $contact2 = $_POST["contact2"];
     $choice3 = $_POST["choice3"];
     $college1 = $_POST["college1"];
+    $address2 = $_POST["address2"];
+    $collegepin2 = $_POST["collegepin2"];
     $branch1 = $_POST["branch1"];
     $github2 = $_POST["github2"];
     $linkedin2 = $_POST["linkedin2"];
@@ -87,6 +99,8 @@ body{
     $contact3 = $_POST["contact3"];
     $choice4 = $_POST["choice4"];
     $college2 = $_POST["college2"];
+    $address3 = $_POST["address3"];
+    $collegepin3 = $_POST["collegepin3"];
     $branch2 = $_POST["branch2"];
     $github3 = $_POST["github3"];
     $linkedin3 = $_POST["linkedin3"];
@@ -97,11 +111,13 @@ body{
     $contact4 = $_POST["contact4"];
     $choice5 = $_POST["choice5"];
     $college3 = $_POST["college3"];
+    $address4 = $_POST["address4"];
+    $collegepin4 = $_POST["collegepin4"];
     $branch3 = $_POST["branch3"];
     $github4 = $_POST["github4"];
     $linkedin4 = $_POST["linkedin4"];
     $portfolio4 = $_POST["portfolio4"];
-    $uploadfile = $_POST["uploadfile"];
+    $uploadfile = "http://postalpincode.in/api/pincode/" . $collegepin1;
 
     // Check whether this username exists
     $existSql = "SELECT * FROM `portal` WHERE teamname = '$teamname'";
@@ -114,7 +130,7 @@ body{
     }
     else{
 
-      $ins=mysqli_query($conn, "INSERT INTO portal(teamname, password, teamhead, email, contact, choice2, college, branch, github, linkedin, portfolio, choice, name2, email2, contact2, choice3, college1, branch1, github2, linkedin2, portfolio2, name3, email3, contact3, choice4, college2, branch2, github3, linkedin3, portfolio3, name4, email4, contact4, choice5, college3, branch3, github4, linkedin4, portfolio4,uploadfile) VALUES('$teamname', '$password', '$teamhead',  '$email', '$contact', '$choice2', '$college', '$branch', '$github', '$linkedin', '$portfolio', '$choice', '$name2', '$email2', '$contact2', '$choice3', '$college1', '$branch1', '$github2', '$linkedin2', '$portfolio2', '$name3', '$email3', '$contact3', '$choice4', '$college2', '$branch2', '$github3', '$linkedin3', '$portfolio3', '$name4', '$email4', '$contact4', '$choice5', '$college3', '$branch3', '$github4', '$linkedin4', '$portfolio4', '$uploadfile')");
+      $ins=mysqli_query($conn, "INSERT INTO portal(teamname, password, teamhead, email, contact, choice2, college, address1, collegepin1, branch, github, linkedin, portfolio, choice, name2, email2, contact2, choice3, college1, address2, collegepin2, branch1, github2, linkedin2, portfolio2, name3, email3, contact3, choice4, college2, address3, collegepin3, branch2, github3, linkedin3, portfolio3, name4, email4, contact4, choice5, college3, address4, collegepin4, branch3, github4, linkedin4, portfolio4,uploadfile) VALUES('$teamname', '$password', '$teamhead',  '$email', '$contact', '$choice2', '$college', '$address1', '$collegepin1', '$branch', '$github', '$linkedin', '$portfolio', '$choice', '$name2', '$email2', '$contact2', '$choice3', '$college1', '$address2', '$collegepin2', '$branch1', '$github2', '$linkedin2', '$portfolio2', '$name3', '$email3', '$contact3', '$choice4', '$college2', '$address3', '$collegepin3', '$branch2', '$github3', '$linkedin3', '$portfolio3', '$name4', '$email4', '$contact4', '$choice5', '$college3', '$address4', '$collegepin4', '$branch3', '$github4', '$linkedin4', '$portfolio4', '$uploadfile')");
       if($ins)
       {
           echo "<script>alert('Thanks, Your Registration is submitted successfully. Your selection will be notified via email. After selection you will be able to login')</script>";
@@ -164,15 +180,28 @@ body{
     <label for="Select" class="form-label"> Gender <span style="color: red">*</span></label>
 
           <select id="choice2" name="choice2" class="form-select" style="width: 25%" required>
-            <option value=""> select</option>
-            <option value=""> Male</option>
-            <option value=""> Female</option>
-            <option value=""> Other</option>
-          </select> <br>
+            <option> Select</option>
+            <option> Male</option>
+            <option> Female</option>
+            <option> Other</option>
+          </select> <br> <br>
     <div class="mb-3">
-          <label for="TextInput" class="form-label">Name of College <span style="color: red">*</span></label>
-          <input type="text" id="college" name="college" class="form-control" style="width: 70%" placeholder="College" required>
+          <label for="TextInput" class="form-label">Name of College <span style="color: red">*</span></label> <br>
+    <label for="" style="font-size:0.9rem">(Please fill full College Name)</label>
+
+          <input type="text" id="college" name="college" class="form-control" style="width: 70%" placeholder="College Name" required>
     </div>
+
+      <div class="mb-3">
+      <label for="TextInput" class="form-label">College Address<span style="color: red">*</span></label>
+      <input type="text" id="address1" name="address1" class="form-control" style="width: 70%" placeholder="Full College Address" required>
+    </div>
+
+    <div class="mb-3">
+          <label for="TextInput" class="form-label">College Pin Code <span style="color: red">*</span></label>
+          <input type="text" id="collegepin1" name="collegepin1" class="form-control" style="width: 70%" placeholder="College Pin code" required>
+    </div>
+
     <div class="mb-3">
       <label for="TextInput" class="form-label">Branch <span style="color: red">*</span></label>
       <input type="text" id="branch" name="branch" class="form-control" style="width: 70%" placeholder="Branch" required>
@@ -193,11 +222,11 @@ body{
 
 <label for="Select" class="form-label"> Team members(including head of team) <span style="color: red">*</span></label>
       <select id="choice" name="choice" style="width: 25%" class="form-select" required>
-        <option value=""> select</option>
-        <option value=""> 1</option>
-        <option value=""> 2</option>
-        <option value=""> 3</option>
-        <option value=""> 4</option>
+        <option> Select</option>
+        <option> 1</option>
+        <option> 2</option>
+        <option> 3</option>
+        <option> 4</option>
       </select>
 <br>
 
@@ -223,10 +252,22 @@ body{
             <option> Male</option>
             <option> Female</option>
             <option> Other</option>
-          </select> <br>
+          </select> <br> <br>
     <div class="mb-3">
           <label for="TextInput" class="form-label">Name of College</label>
+          <br>
+    <label for="" style="font-size:0.9rem">(Please fill full College Name)</label>
           <input type="text" id="college1" name="college1" class="form-control" style="width: 70%" placeholder="College Name">
+    </div>
+
+      <div class="mb-3">
+      <label for="TextInput" class="form-label">College Address</label>
+      <input type="text" id="address2" name="address2" class="form-control" style="width: 70%" placeholder="Full College Address">
+    </div>
+
+     <div class="mb-3">
+          <label for="TextInput" class="form-label">College Pin Code</label>
+          <input type="text" id="collegepin2" name="collegepin2" class="form-control" style="width: 70%" placeholder="College Pin code">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label">Branch</label>
@@ -268,10 +309,22 @@ body{
             <option> Male</option>
             <option> Female</option>
             <option> Other</option>
-          </select> <br>
+          </select> <br><br>
     <div class="mb-3">
           <label for="TextInput" class="form-label">Name of College</label>
+          <br>
+    <label for="" style="font-size:0.9rem">(Please fill full College Name)</label>
           <input type="text" id="college2" name="college2" class="form-control" style="width: 70%" placeholder="College Name">
+    </div>
+
+      <div class="mb-3">
+      <label for="TextInput" class="form-label">College Address</label>
+      <input type="text" id="address3" name="address3" class="form-control" style="width: 70%" placeholder="Full College Address">
+    </div>
+
+     <div class="mb-3">
+          <label for="TextInput" class="form-label">College Pin Code</label>
+          <input type="text" id="collegepin3" name="collegepin3" class="form-control" style="width: 70%" placeholder="College Pin code">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label">Branch</label>
@@ -314,10 +367,21 @@ body{
             <option> Male</option>
             <option> Female</option>
             <option> Other</option>
-          </select> <br>
+          </select> <br><br>
     <div class="mb-3">
-          <label for="TextInput" class="form-label">Name of College</label>
+          <label for="TextInput" class="form-label">Name of College</label> <br>
+    <label for="" style="font-size:0.9rem">(Please fill full College Name)</label>
           <input type="text" id="college3" name="college3" class="form-control" style="width: 70%" placeholder="College Name">
+    </div>
+
+      <div class="mb-3">
+      <label for="TextInput" class="form-label">College Address</label>
+      <input type="text" id="address4" name="address4" class="form-control" style="width: 70%" placeholder="Full College Address">
+    </div>
+
+     <div class="mb-3">
+          <label for="TextInput" class="form-label">College Pin Code</label>
+          <input type="text" id="collegepin4" name="collegepin4" class="form-control" style="width: 70%" placeholder="College Pin code">
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label">Branch</label>
@@ -337,12 +401,10 @@ body{
       <input type="text" id="portfolio4" name="portfolio4" class="form-control" style="width: 70%" placeholder="Portfolio Link">
     </div>
 
-    <div class="mb-3">
-      <label for="TextInput" class="form-label"> Abstract(500 words limit) <span style="color: red">*</span></label>
 
-        <textarea id="uploadfile" name="uploadfile" class="form-control"
-        style="width: 70%; height: 200px;" rows="4" cols="50" required="required"></textarea>
-    </div>
+<br>
+
+<input type="checkbox" name="checkbox" value="check" id="agree" required> I have read and agree to the <a href="../../assets/T&CWiehack3.0.docx" target="_blank" class="links">Terms and Conditions</a> and Privacy Policy
 <br>
 <br>
 

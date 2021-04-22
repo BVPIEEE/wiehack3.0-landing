@@ -92,8 +92,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
              echo "  <tr>
                  <th scope='row'>". $sno ."</th>
                  <td>". $row['teamname'] ."</td>
-                 <td>". $row['teamhead'] ."</td>
-                 <td>". $row['uploadfile'] ."</td>"?>
+                 <td>". $row['teamhead'] ."</td>"?>
+                 <td>  <a href ="<?php echo $row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
             <td>  <a href ="<?php echo $row['github']; ?>" > <?php echo $row['github'] ?> </a></td>
              <td>  <a href ="<?php echo $row['github2']; ?>" > <?php echo $row['github2'] ?> </a></td>
               <td>  <a href ="<?php echo $row['github3']; ?>" > <?php echo $row['github3'] ?> </a></td>
