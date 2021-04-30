@@ -1,8 +1,8 @@
 <?php
 $server = "localhost";
-$username = "root";
-$password = "";
-$database = "portal";
+$username = "bvpifcjd_bvpieee";
+$password = "bvpieee2021";
+$database = "bvpifcjd_WIEHACK";
 
 $conn = mysqli_connect($server, $username, $password, $database);
 if(!$conn) {
