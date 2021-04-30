@@ -43,7 +43,7 @@ body{
       <img src="../../assets/bvpieeelogo.png" class="bvpieee-logo">
       <ul class="nav-links">
         <li><a href="../../index.html" class="login-btn">Home</a></li>
-        <li class="links"><a href="../../assets/rulebook.pdf" target="_blank">Rulebook</a></li>
+        <li class="links"><a href="../../assets/rulebook1.pdf" target="_blank">Rulebook</a></li>
       </ul>
       <div class="burger">
         <div class="line1"></div>
@@ -92,7 +92,7 @@ body{
     $branch1 = $_POST["branch1"];
     $github2 = $_POST["github2"];
     $linkedin2 = $_POST["linkedin2"];
-    $portfolio2 = $_POST["portfolio2"];
+    //$portfolio2 = $_POST["portfolio2"];
 
     $name3 = $_POST["name3"];
     $email3 = $_POST["email3"];
@@ -104,7 +104,7 @@ body{
     $branch2 = $_POST["branch2"];
     $github3 = $_POST["github3"];
     $linkedin3 = $_POST["linkedin3"];
-    $portfolio3 = $_POST["portfolio3"];
+    //$portfolio3 = $_POST["portfolio3"];
 
     $name4 = $_POST["name4"];
     $email4 = $_POST["email4"];
@@ -116,7 +116,7 @@ body{
     $branch3 = $_POST["branch3"];
     $github4 = $_POST["github4"];
     $linkedin4 = $_POST["linkedin4"];
-    $portfolio4 = $_POST["portfolio4"];
+    //$portfolio4 = $_POST["portfolio4"];
     $uploadfile = "http://postalpincode.in/api/pincode/" . $collegepin1;
 
     // Check whether this username exists
@@ -130,7 +130,7 @@ body{
     }
     else{
 
-      $ins=mysqli_query($conn, "INSERT INTO portal(teamname, password, teamhead, email, contact, choice2, college, address1, collegepin1, branch, github, linkedin, portfolio, choice, name2, email2, contact2, choice3, college1, address2, collegepin2, branch1, github2, linkedin2, portfolio2, name3, email3, contact3, choice4, college2, address3, collegepin3, branch2, github3, linkedin3, portfolio3, name4, email4, contact4, choice5, college3, address4, collegepin4, branch3, github4, linkedin4, portfolio4,uploadfile) VALUES('$teamname', '$password', '$teamhead',  '$email', '$contact', '$choice2', '$college', '$address1', '$collegepin1', '$branch', '$github', '$linkedin', '$portfolio', '$choice', '$name2', '$email2', '$contact2', '$choice3', '$college1', '$address2', '$collegepin2', '$branch1', '$github2', '$linkedin2', '$portfolio2', '$name3', '$email3', '$contact3', '$choice4', '$college2', '$address3', '$collegepin3', '$branch2', '$github3', '$linkedin3', '$portfolio3', '$name4', '$email4', '$contact4', '$choice5', '$college3', '$address4', '$collegepin4', '$branch3', '$github4', '$linkedin4', '$portfolio4', '$uploadfile')");
+      $ins=mysqli_query($conn, "INSERT INTO portal(teamname, password, teamhead, email, contact, choice2, college, address1, collegepin1, branch, github, linkedin, portfolio, choice, name2, email2, contact2, choice3, college1, address2, collegepin2, branch1, github2, linkedin2, name3, email3, contact3, choice4, college2, address3, collegepin3, branch2, github3, linkedin3, name4, email4, contact4, choice5, college3, address4, collegepin4, branch3, github4, linkedin4, uploadfile) VALUES('$teamname', '$password', '$teamhead',  '$email', '$contact', '$choice2', '$college', '$address1', '$collegepin1', '$branch', '$github', '$linkedin', '$portfolio', '$choice', '$name2', '$email2', '$contact2', '$choice3', '$college1', '$address2', '$collegepin2', '$branch1', '$github2', '$linkedin2', '$name3', '$email3', '$contact3', '$choice4', '$college2', '$address3', '$collegepin3', '$branch2', '$github3', '$linkedin3', '$name4', '$email4', '$contact4', '$choice5', '$college3', '$address4', '$collegepin4', '$branch3', '$github4', '$linkedin4', '$uploadfile')");
       if($ins)
       {
           echo "<script>alert('Thanks, Your Registration is submitted successfully. Your selection will be notified via email. After selection you will be able to login')</script>";
@@ -208,16 +208,34 @@ body{
     </div>
 
     <div class="mb-3">
-      <label for="TextInput" class="form-label">Github Profile link <span style="color: red">*</span></label>
-      <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required>
+      <label for="TextInput" class="form-label">Year <span style="color: red">*</span></label>
+         <select id="github" name="github" style="width: 25%" class="form-select" required>
+        <option> Select</option>
+        <option> 1st</option>
+        <option> 2nd</option>
+        <option> 3rd</option>
+        <option> 4th</option>
+      </select>
+    <!-- <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required> -->
     </div>
     <div class="mb-3">
-      <label for="TextInput" class="form-label"> Linkedin Profile link <span style="color: red">*</span></label>
-      <input type="text" id="linkedin" name="linkedin" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required>
+      <label for="TextInput" class="form-label"> Are you an IEEE Member? <span style="color: red">*</span></label>
+       <select id="linkedin" name="linkedin" style="width: 25%" class="form-select" required>
+        <option> Select</option>
+        <option> Yes</option>
+        <option> No</option>
+      </select>
+    <!--  <input type="text" id="linkedin" name="linkedin" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> -->
     </div>
     <div class="mb-3">
-      <label for="TextInput" class="form-label"> Portfolio(If Any)</label>
-      <input type="text" id="portfolio" name="portfolio" class="form-control" style="width: 70%" placeholder="Portfolio Link">
+      <label for="TextInput" class="form-label">Where did you hear about Wiehack?</label>
+      <select id="portfolio" name="portfolio" style="width: 25%" class="form-select" required>
+        <option> Select</option>
+        <option> Social Media</option>
+        <option> Through a Friend</option>
+        <option> Through a Website</option>
+      </select>
+   <!--   <input type="text" id="portfolio" name="portfolio" class="form-control" style="width: 70%" placeholder="Portfolio Link"> -->
     </div>
 
 <label for="Select" class="form-label"> Team members(including head of team) <span style="color: red">*</span></label>
@@ -275,17 +293,29 @@ body{
     </div>
 
     <div class="mb-3">
-      <label for="TextInput" class="form-label">Github Profile link</label>
-      <input type="text" id="github2" name="github2" class="form-control" style="width: 70%" placeholder="Github Profile">
+      <label for="TextInput" class="form-label">Year</label>
+       <select id="github2" name="github2" style="width: 25%" class="form-select" required>
+        <option> Select</option>
+        <option> 1st</option>
+        <option> 2nd</option>
+        <option> 3rd</option>
+        <option> 4th</option>
+      </select>
+    <!-- <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required> -->
     </div>
     <div class="mb-3">
-      <label for="TextInput" class="form-label"> Linkedin Profile link</label>
-      <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="Linkedin Profile">
+      <label for="TextInput" class="form-label"> Are you an IEEE Member?</label>
+     <select id="linkedin2" name="linkedin2" style="width: 25%" class="form-select" required>
+        <option> Select</option>
+        <option> Yes</option>
+        <option> No</option>
+      </select>
+    <!--  <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> -->
     </div>
-    <div class="mb-3">
+   <!-- <div class="mb-3">
       <label for="TextInput" class="form-label"> Portfolio(If Any)</label>
       <input type="text" id="portfolio2" name="portfolio2" class="form-control" style="width: 70%" placeholder="Portfolio Link">
-    </div>
+    </div> -->
 
 
     <br><br><br>
@@ -331,18 +361,30 @@ body{
       <input type="text" id="branch2" name="branch2" class="form-control" style="width: 70%" placeholder=" Branch Name">
     </div>
 
-    <div class="mb-3">
-      <label for="TextInput" class="form-label">Github Profile link</label>
-      <input type="text" id="github3" name="github3" class="form-control" style="width: 70%" placeholder="Github Profile">
+     <div class="mb-3">
+      <label for="TextInput" class="form-label">Year</label>
+       <select id="github3" name="github3" style="width: 25%" class="form-select" required>
+        <option> Select</option>
+        <option> 1st</option>
+        <option> 2nd</option>
+        <option> 3rd</option>
+        <option> 4th</option>
+      </select>
+    <!-- <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required> -->
     </div>
     <div class="mb-3">
-      <label for="TextInput" class="form-label"> Linkedin Profile link</label>
-      <input type="text" id="linkedin3" name="linkedin3" class="form-control" style="width: 70%" placeholder="Linkedin Profile">
+      <label for="TextInput" class="form-label"> Are you an IEEE Member?</label>
+     <select id="linkedin3" name="linkedin3" style="width: 25%" class="form-select" required>
+        <option> Select</option>
+        <option> Yes</option>
+        <option> No</option>
+      </select>
+    <!--  <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> -->
     </div>
-    <div class="mb-3">
+   <!-- <div class="mb-3">
       <label for="TextInput" class="form-label"> Portfolio(If Any)</label>
-      <input type="text" id="portfolio3" name="portfolio3" class="form-control" style="width: 70%" placeholder="Portfolio Link">
-    </div>
+      <input type="text" id="portfolio2" name="portfolio2" class="form-control" style="width: 70%" placeholder="Portfolio Link">
+    </div> -->
 
 
 
@@ -389,17 +431,29 @@ body{
     </div>
 
     <div class="mb-3">
-      <label for="TextInput" class="form-label">Github Profile link</label>
-      <input type="text" id="github4" name="github4" class="form-control" style="width: 70%" placeholder="Github Profile">
+      <label for="TextInput" class="form-label">Year</label>
+       <select id="github4" name="github4" style="width: 25%" class="form-select" required>
+        <option> Select</option>
+        <option> 1st</option>
+        <option> 2nd</option>
+        <option> 3rd</option>
+        <option> 4th</option>
+      </select>
+    <!-- <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required> -->
     </div>
     <div class="mb-3">
-      <label for="TextInput" class="form-label"> Linkedin Profile link</label>
-      <input type="text" id="linkedin4" name="linkedin4" class="form-control" style="width: 70%" placeholder="Linkedin Profile">
+      <label for="TextInput" class="form-label"> Are you an IEEE Member?</label>
+     <select id="linkedin4" name="linkedin4" style="width: 25%" class="form-select" required>
+        <option> Select</option>
+        <option> Yes</option>
+        <option> No</option>
+      </select>
+    <!--  <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> -->
     </div>
-    <div class="mb-3">
+   <!-- <div class="mb-3">
       <label for="TextInput" class="form-label"> Portfolio(If Any)</label>
-      <input type="text" id="portfolio4" name="portfolio4" class="form-control" style="width: 70%" placeholder="Portfolio Link">
-    </div>
+      <input type="text" id="portfolio2" name="portfolio2" class="form-control" style="width: 70%" placeholder="Portfolio Link">
+    </div> -->
 
 
 <br>
