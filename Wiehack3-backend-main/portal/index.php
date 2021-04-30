@@ -59,97 +59,6 @@ body{
       </p>
     </div>
 
-<?php
-
-  $showerror = false;
-  include("dbconnect.php");
-  if(isset($_POST['submit']))
-  {
-    $teamname = $_POST["teamname"];
-    $password = $_POST["password"];
-    $teamhead = $_POST["teamhead"];
-    $email = $_POST["email"];
-    $contact = $_POST["contact"];
-
-    $choice2 = $_POST["choice2"];
-    $college = $_POST["college"];
-    $address1 = $_POST["address1"];
-    $collegepin1 = $_POST["collegepin1"];
-    $branch = $_POST["branch"];
-    $github = $_POST["github"];
-    $linkedin = $_POST["linkedin"];
-    $portfolio = $_POST["portfolio"];
-
-    $choice = $_POST["choice"];
-
-    $name2 = $_POST["name2"];
-    $email2 = $_POST["email2"];
-    $contact2 = $_POST["contact2"];
-    $choice3 = $_POST["choice3"];
-    $college1 = $_POST["college1"];
-    $address2 = $_POST["address2"];
-    $collegepin2 = $_POST["collegepin2"];
-    $branch1 = $_POST["branch1"];
-    $github2 = $_POST["github2"];
-    $linkedin2 = $_POST["linkedin2"];
-    //$portfolio2 = $_POST["portfolio2"];
-
-    $name3 = $_POST["name3"];
-    $email3 = $_POST["email3"];
-    $contact3 = $_POST["contact3"];
-    $choice4 = $_POST["choice4"];
-    $college2 = $_POST["college2"];
-    $address3 = $_POST["address3"];
-    $collegepin3 = $_POST["collegepin3"];
-    $branch2 = $_POST["branch2"];
-    $github3 = $_POST["github3"];
-    $linkedin3 = $_POST["linkedin3"];
-    //$portfolio3 = $_POST["portfolio3"];
-
-    $name4 = $_POST["name4"];
-    $email4 = $_POST["email4"];
-    $contact4 = $_POST["contact4"];
-    $choice5 = $_POST["choice5"];
-    $college3 = $_POST["college3"];
-    $address4 = $_POST["address4"];
-    $collegepin4 = $_POST["collegepin4"];
-    $branch3 = $_POST["branch3"];
-    $github4 = $_POST["github4"];
-    $linkedin4 = $_POST["linkedin4"];
-    //$portfolio4 = $_POST["portfolio4"];
-    $uploadfile = "http://postalpincode.in/api/pincode/" . $collegepin1;
-
-    // Check whether this username exists
-    $existSql = "SELECT * FROM `portal` WHERE teamname = '$teamname'";
-    $result = mysqli_query($conn, $existSql);
-    $numExistRows = mysqli_num_rows($result);
-    if($numExistRows > 0){
-        // $exists = true;
-        $showerror = true;
-  /*  echo "                   " . "Teamname Already Exists"; */
-    }
-    else{
-
-      $ins=mysqli_query($conn, "INSERT INTO portal(teamname, password, teamhead, email, contact, choice2, college, address1, collegepin1, branch, github, linkedin, portfolio, choice, name2, email2, contact2, choice3, college1, address2, collegepin2, branch1, github2, linkedin2, name3, email3, contact3, choice4, college2, address3, collegepin3, branch2, github3, linkedin3, name4, email4, contact4, choice5, college3, address4, collegepin4, branch3, github4, linkedin4, uploadfile) VALUES('$teamname', '$password', '$teamhead',  '$email', '$contact', '$choice2', '$college', '$address1', '$collegepin1', '$branch', '$github', '$linkedin', '$portfolio', '$choice', '$name2', '$email2', '$contact2', '$choice3', '$college1', '$address2', '$collegepin2', '$branch1', '$github2', '$linkedin2', '$name3', '$email3', '$contact3', '$choice4', '$college2', '$address3', '$collegepin3', '$branch2', '$github3', '$linkedin3', '$name4', '$email4', '$contact4', '$choice5', '$college3', '$address4', '$collegepin4', '$branch3', '$github4', '$linkedin4', '$uploadfile')");
-      if($ins)
-      {
-          echo "<script>alert('Thanks, Your Registration is submitted successfully. Your selection will be notified via email. After selection you will be able to login')</script>";
-  		echo "<script>window.open('index.php','_self')</script>";
-      }
-      else
-      {
-          echo mysqli_error();
-      }
-  } }
-
-  if($showerror){
-  echo ' <div class="alert alert-danger alert-dismissible fade show" role="alert">
-      <strong>Teamname already exists.</strong>
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-      </button>
-  </div> ';
-} ?>
 
 
 <div class="container-fluid my-4">
@@ -456,6 +365,8 @@ body{
     </div> -->
 
 
+
+
 <br>
 
 <input type="checkbox" name="checkbox" value="check" id="agree" required> I have read and agree to the <a href="../../assets/T&CWiehack3.0.docx" target="_blank" class="links">Terms and Conditions</a> and Privacy Policy
@@ -465,6 +376,98 @@ body{
 <input class="login-btn" style = "color: white;" type="submit" name="submit" value="Submit">
 </form>
 </div>
+
+<?php
+
+  $showerror = false;
+  include("dbconnect.php");
+  if(isset($_POST['submit']))
+  {
+    $teamname = $_POST["teamname"];
+    $password = $_POST["password"];
+    $teamhead = $_POST["teamhead"];
+    $email = $_POST["email"];
+    $contact = $_POST["contact"];
+
+    $choice2 = $_POST["choice2"];
+    $college = $_POST["college"];
+    $address1 = $_POST["address1"];
+    $collegepin1 = $_POST["collegepin1"];
+    $branch = $_POST["branch"];
+    $github = $_POST["github"];
+    $linkedin = $_POST["linkedin"];
+    $portfolio = $_POST["portfolio"];
+
+    $choice = $_POST["choice"];
+
+    $name2 = $_POST["name2"];
+    $email2 = $_POST["email2"];
+    $contact2 = $_POST["contact2"];
+    $choice3 = $_POST["choice3"];
+    $college1 = $_POST["college1"];
+    $address2 = $_POST["address2"];
+    $collegepin2 = $_POST["collegepin2"];
+    $branch1 = $_POST["branch1"];
+    $github2 = $_POST["github2"];
+    $linkedin2 = $_POST["linkedin2"];
+    //$portfolio2 = $_POST["portfolio2"];
+
+    $name3 = $_POST["name3"];
+    $email3 = $_POST["email3"];
+    $contact3 = $_POST["contact3"];
+    $choice4 = $_POST["choice4"];
+    $college2 = $_POST["college2"];
+    $address3 = $_POST["address3"];
+    $collegepin3 = $_POST["collegepin3"];
+    $branch2 = $_POST["branch2"];
+    $github3 = $_POST["github3"];
+    $linkedin3 = $_POST["linkedin3"];
+    //$portfolio3 = $_POST["portfolio3"];
+
+    $name4 = $_POST["name4"];
+    $email4 = $_POST["email4"];
+    $contact4 = $_POST["contact4"];
+    $choice5 = $_POST["choice5"];
+    $college3 = $_POST["college3"];
+    $address4 = $_POST["address4"];
+    $collegepin4 = $_POST["collegepin4"];
+    $branch3 = $_POST["branch3"];
+    $github4 = $_POST["github4"];
+    $linkedin4 = $_POST["linkedin4"];
+    //$portfolio4 = $_POST["portfolio4"];
+    $uploadfile = "http://postalpincode.in/api/pincode/" . $collegepin1;
+
+    // Check whether this username exists
+    $existSql = "SELECT * FROM `portal` WHERE teamname = '$teamname'";
+    $result = mysqli_query($conn, $existSql);
+    $numExistRows = mysqli_num_rows($result);
+    if($numExistRows > 0){
+        // $exists = true;
+        $showerror = true;
+  /*  echo "                   " . "Teamname Already Exists"; */
+    }
+    else{
+
+      $ins=mysqli_query($conn, "INSERT INTO portal(teamname, password, teamhead, email, contact, choice2, college, address1, collegepin1, branch, github, linkedin, portfolio, choice, name2, email2, contact2, choice3, college1, address2, collegepin2, branch1, github2, linkedin2, name3, email3, contact3, choice4, college2, address3, collegepin3, branch2, github3, linkedin3, name4, email4, contact4, choice5, college3, address4, collegepin4, branch3, github4, linkedin4, uploadfile) VALUES('$teamname', '$password', '$teamhead',  '$email', '$contact', '$choice2', '$college', '$address1', '$collegepin1', '$branch', '$github', '$linkedin', '$portfolio', '$choice', '$name2', '$email2', '$contact2', '$choice3', '$college1', '$address2', '$collegepin2', '$branch1', '$github2', '$linkedin2', '$name3', '$email3', '$contact3', '$choice4', '$college2', '$address3', '$collegepin3', '$branch2', '$github3', '$linkedin3', '$name4', '$email4', '$contact4', '$choice5', '$college3', '$address4', '$collegepin4', '$branch3', '$github4', '$linkedin4', '$uploadfile')");
+      if($ins)
+      {
+          echo "<script>alert('Thanks, Your Registration is submitted successfully. Your selection will be notified via email. After selection you will be able to login')</script>";
+  		echo "<script>window.open('index.php','_self')</script>";
+      }
+      else
+      {
+          echo mysqli_error();
+      }
+  } }
+
+  if($showerror){
+  echo ' <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>Teamname already exists.</strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button>
+  </div> ';
+} ?>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
