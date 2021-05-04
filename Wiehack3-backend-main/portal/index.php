@@ -73,7 +73,7 @@ body{
           <input type="text" id="password" name="password" class="form-control" style="width: 70%"  placeholder ="Password" required>
         </div>
     <div class="mb-3">
-      <label for="TextInput" class="form-label"> Name(Team Head) <span style="color: red">*</span></label>
+      <label for="TextInput" class="form-label"> Name(Team Leader) <span style="color: red">*</span></label>
       <input type="text" id="teamhead" name="teamhead" class="form-control" style="width: 70%"   placeholder="Team Head " required>
     </div>
 
@@ -140,14 +140,20 @@ body{
       <label for="TextInput" class="form-label">Where did you hear about Wiehack?</label>
       <select id="portfolio" name="portfolio" style="width: 25%" class="form-select" required>
         <option> Select</option>
-        <option> Social Media</option>
+        <option> Facebook</option>
+        <option> Youtube</option>
+        <option> Instagram</option>
+        <option> Whatsapp</option>
         <option> Through a Friend</option>
         <option> Through a Website</option>
+        <option> IEEE's Email</option>
+        <option> BVPIEEE's Email</option>
+        <option> Other</option>
       </select>
    <!--   <input type="text" id="portfolio" name="portfolio" class="form-control" style="width: 70%" placeholder="Portfolio Link"> -->
     </div>
 
-<label for="Select" class="form-label"> Team members(including head of team) <span style="color: red">*</span></label>
+<label for="Select" class="form-label"> Team members(Including Team Leader) <span style="color: red">*</span></label>
       <select id="choice" name="choice" style="width: 25%" class="form-select" required>
         <option> Select</option>
         <option> 1</option>
@@ -252,7 +258,7 @@ body{
     <div class="mb-3">
           <label for="TextInput" class="form-label">Name of College</label>
           <br>
-    <label for="" style="font-size:0.9rem">(Please fill full College Name)</label>
+    <label for="" style="font-size:0.9rem">(Please fill the full College Name)</label>
           <input type="text" id="college2" name="college2" class="form-control" style="width: 70%" placeholder="College Name">
     </div>
 
@@ -369,7 +375,7 @@ body{
 
 <br>
 
-<input type="checkbox" name="checkbox" value="check" id="agree" required> I have read and agree to the <a href="../../assets/T&CWiehack3.0.docx" target="_blank" class="links">Terms and Conditions</a> and Privacy Policy
+<input type="checkbox" name="checkbox" value="check" id="agree" required> I have read and agree to the <a href="../../assets/T&CWiehack3.0.pdf" target="_blank" class="links">Terms & Conditions and Privacy Policy</a> 
 <br>
 <br>
 
