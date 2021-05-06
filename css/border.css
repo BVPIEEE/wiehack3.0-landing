@@ -1,0 +1,54 @@
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+.rainbow {
+  left: 30%;
+  position: relative;
+  z-index: 0;
+  width: 660px;
+  height: 510px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.rainbow::before {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: #a5318c;
+  background-repeat: no-repeat;
+  background-size: 50% 50%, 50% 50%;
+  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a5318c), to(#a5318c)), -webkit-gradient(linear, left top, left bottom, from(#fbb300), to(#fbb300)), -webkit-gradient(linear, left top, left bottom, from(#d53e33), to(#d53e33)), -webkit-gradient(linear, left top, left bottom, from(#377af5), to(#377af5));
+  background-image: linear-gradient(#a5318c, #a5318c), linear-gradient(#12afaf, #12afaf), linear-gradient(#29bd78,#29bd78), linear-gradient(#2d085c, #2d085c);
+  -webkit-animation: rotate 4s linear infinite;
+          animation: rotate 4s linear infinite;
+}
+
+.rainbow::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 6px;
+  top: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  background: white;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=border.css.map */
