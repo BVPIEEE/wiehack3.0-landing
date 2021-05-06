@@ -13,7 +13,7 @@
 }
 
 .rainbow {
-  left: 30%;
+  margin: 0 auto;
   position: relative;
   z-index: 0;
   width: 660px;
