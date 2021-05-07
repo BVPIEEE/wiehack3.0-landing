@@ -452,9 +452,9 @@ body{
         $showerror = true;
   /*  echo "                   " . "Teamname Already Exists"; */
     }
-    else{
-
-      $ins=mysqli_query($conn, "INSERT INTO portal(teamname, password, teamhead, email, contact, choice2, college, address1, collegepin1, branch, github, linkedin, portfolio, choice, name2, email2, contact2, choice3, college1, address2, collegepin2, branch1, github2, linkedin2, name3, email3, contact3, choice4, college2, address3, collegepin3, branch2, github3, linkedin3, name4, email4, contact4, choice5, college3, address4, collegepin4, branch3, github4, linkedin4, uploadfile) VALUES('$teamname', '$password', '$teamhead',  '$email', '$contact', '$choice2', '$college', '$address1', '$collegepin1', '$branch', '$github', '$linkedin', '$portfolio', '$choice', '$name2', '$email2', '$contact2', '$choice3', '$college1', '$address2', '$collegepin2', '$branch1', '$github2', '$linkedin2', '$name3', '$email3', '$contact3', '$choice4', '$college2', '$address3', '$collegepin3', '$branch2', '$github3', '$linkedin3', '$name4', '$email4', '$contact4', '$choice5', '$college3', '$address4', '$collegepin4', '$branch3', '$github4', '$linkedin4', '$uploadfile')");
+      else{
+$hash = password_hash($password, PASSWORD_DEFAULT);
+      $ins=mysqli_query($conn, "INSERT INTO portal(teamname, password, teamhead, email, contact, choice2, college, address1, collegepin1, branch, github, linkedin, portfolio, choice, name2, email2, contact2, choice3, college1, address2, collegepin2, branch1, github2, linkedin2, name3, email3, contact3, choice4, college2, address3, collegepin3, branch2, github3, linkedin3, name4, email4, contact4, choice5, college3, address4, collegepin4, branch3, github4, linkedin4, uploadfile) VALUES('$teamname', '$hash', '$teamhead',  '$email', '$contact', '$choice2', '$college', '$address1', '$collegepin1', '$branch', '$github', '$linkedin', '$portfolio', '$choice', '$name2', '$email2', '$contact2', '$choice3', '$college1', '$address2', '$collegepin2', '$branch1', '$github2', '$linkedin2', '$name3', '$email3', '$contact3', '$choice4', '$college2', '$address3', '$collegepin3', '$branch2', '$github3', '$linkedin3', '$name4', '$email4', '$contact4', '$choice5', '$college3', '$address4', '$collegepin4', '$branch3', '$github4', '$linkedin4', '$uploadfile')");
       if($ins)
       {
           echo "<script>alert('Thanks, Your Registration is submitted successfully. Your selection will be notified via email. After selection you will be able to login')</script>";

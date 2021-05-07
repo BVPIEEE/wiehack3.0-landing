@@ -68,7 +68,7 @@ session_start();
    </head>
    <body>
 <br>
-<h2 class="text-center">Round 2 scores </h2>
+<h2 class="text-center">Round 4 scores </h2>
 <br><br>
 <div class="container my-4">
   <table class="table" id="myTable">
@@ -84,7 +84,7 @@ session_start();
 
     <?php
   include 'dbconnect.php';
-      $sql1 = "SELECT Sno, teamname, uploadfile FROM round1";
+      $sql1 = "SELECT Sno, teamname, uploadfile FROM round3";
       $result = mysqli_query($conn, $sql1);
       $sno = 0;
       while($row = mysqli_fetch_assoc($result)) {

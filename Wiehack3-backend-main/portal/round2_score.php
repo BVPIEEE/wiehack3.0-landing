@@ -68,7 +68,7 @@ session_start();
    </head>
    <body>
 <br>
-<h2 class="text-center">Round 2 scores </h2>
+<h2 class="text-center">Round 1 scores </h2>
 <br><br>
 <div class="container my-4">
   <table class="table" id="myTable">
@@ -76,7 +76,9 @@ session_start();
     <tr>
       <th scope="col">Sno</th>
       <th scope="col">Teamname</th>
-      <th scope="col">Uploaded File</th>
+      <th scope="col">Linkedin link</th>
+      <th scope="col">Github</th>
+      <th scope="col">Abstract</th>
     </tr>
   </thead>
   <tbody>
@@ -84,7 +86,7 @@ session_start();
 
     <?php
   include 'dbconnect.php';
-      $sql1 = "SELECT Sno, teamname, uploadfile FROM round1";
+      $sql1 = "SELECT Sno, teamname, linkedin, github, uploadfile FROM round2";
       $result = mysqli_query($conn, $sql1);
       $sno = 0;
       while($row = mysqli_fetch_assoc($result)) {
@@ -92,8 +94,10 @@ session_start();
         echo "  <tr>
             <th scope='row'>". $sno ."</th>
             <td>". $row['teamname'] ."</td> "?>
-            <td>  <a href ="<?php echo "uploads/".$row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
-<?php  echo"
+            <td>  <a href ="<?php echo $row['linkedin']; ?>" > <?php echo $row['linkedin'] ?> </a></td>
+            <td>  <a href ="<?php echo $row['github']; ?>" > <?php echo $row['github'] ?> </a></td>
+
+<?php  echo"   <th scope='row'>". $row['uploadfile'] ."</th>
           </tr> ";
 
       }
