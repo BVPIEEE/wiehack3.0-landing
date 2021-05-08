@@ -75,14 +75,23 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
 <div class="container">
   <br><br>
-<h2 class="text-center">ROUND 2 SUBMISSIONS</h2><br><br>
-  <form class="" action="2.php" method="post" enctype="multipart/form-data">
+<h2 class="text-center">ROUND 1 SUBMISSIONS</h2> <br><br>
+  <form class="" action="1.php" method="post" enctype="multipart/form-data">
     <div class="mb-3">
       <label for="TextInput" class="form-label">Teamname</label>
       <input type="text" id="Teamname" name="Teamname" class="form-control" placeholder=" input">
     </div>
+    <div class="mb-3">
+      <label for="TextInput" class="form-label">Linkedin Profile Link</label>
+      <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder=" input">
+    </div>
+    <div class="mb-3">
+      <label for="TextInput" class="form-label">Github Profile Link</label>
+      <input type="text" id="github" name="github" class="form-control" placeholder=" input">
+    </div>
     <div class="form-group">
-  Pdf File : <input type="file" name="file" id="file" placeholder="File" value="Choose File">
+  Abstract : <textarea name="uploadfile" id="uploadfile" rows="8" cols="80"></textarea>
+  <!--<input type="file" name="file" id="file" placeholder="File" value="Choose File">-->
   </div>
   <br>
 
@@ -107,14 +116,12 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
  if(isset($_POST['submit']))
  {
     $teamname = $_SESSION['teamname'];
+    $linkedin = $_POST['linkedin'];
+    $github = $_POST['github'];
+    $uploadfile = $_POST['uploadfile'];
 
- $filename = $_FILES['file']['name'];
- $tmpname  = $_FILES['file']['tmp_name'];
- $folder = "uploads/".basename($filename);
 
-          move_uploaded_file($tmpname,$folder);
-
-              $ins=mysqli_query($conn, "INSERT INTO round1(teamname, uploadfile) VALUES('$teamname','$filename')");
+              $ins=mysqli_query($conn, "INSERT INTO round2(teamname, linkedin, github, uploadfile) VALUES('$teamname', '$linkedin', '$github', '$uploadfile')");
               if($ins)
               {
                  echo "<script>alert('Thanks, Your contribution is submitted successfully')</script>";

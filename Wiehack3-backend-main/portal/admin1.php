@@ -20,7 +20,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
      </button>
      <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-         <li class="nav-item">
+                <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="admin1.php">Home</a>
          </li>
          <li class="nav-item">
@@ -29,11 +29,17 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="judge2.php">Judge2</a>
          </li>
-             <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round1_score.php">Round 1</a>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round2_score.php">Round 1 </a>
          </li>
-           <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 3</a>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round1_score.php">Round 2 </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 3 </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round3_score.php">Round 4</a>
          </li>
          </ul>';
 

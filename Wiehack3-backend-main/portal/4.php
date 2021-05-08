@@ -1,12 +1,12 @@
 <?php
 session_start();
-/*if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
-  header("location: admin.php");
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
+  header("location: team.php");
   exit;
-}*/
+}
  ?>
  <?php if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
-   $loggedin= true;
+  $loggedin= true;
  }
  else{
    $loggedin = false;
@@ -21,27 +21,32 @@ session_start();
      <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
          <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="admin1.php">Home</a>
+           <a class="nav-link active" aria-current="page" href="team1.php">Home</a>
+         </li>
+       <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="1.php">Round 1</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="judge1.php">Judge1</a>
+           <a class="nav-link active" aria-current="page" href="2.php">Round 2</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="judge2.php">Judge2</a>
+           <a class="nav-link active" aria-current="page" href="3.php">Round 3</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round2_score.php">Round 1 </a>
+           <a class="nav-link active" aria-current="page" href="4.php">Round 4</a>
          </li>
-         <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round1_score.php">Round 2 </a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 3 </a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round3_score.php">Round 4</a>
-         </li>
-
+        <!--    <li class="nav-item">
+   <a class="nav-link disabled" href="1.php" tabindex="-1" aria-disabled="true">Round 1</a>
+ </li>
+   <li class="nav-item">
+   <a class="nav-link disabled" href="2.php" tabindex="-1" aria-disabled="true">Round 2</a>
+ </li>
+ <li class="nav-item">
+<a class="nav-link disabled" href="3.php" tabindex="-1" aria-disabled="true">Round 3</a>
+</li>
+<li class="nav-item">
+<a class="nav-link disabled" href="4.php" tabindex="-1" aria-disabled="true">Round 4</a>
+</li> -->
          </ul>';
 
            if($loggedin){
@@ -64,43 +69,27 @@ session_start();
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
  <link rel="stylesheet" href="//cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
 
-
    </head>
    <body>
-<br>
-<h2 class="text-center">Round 2 scores </h2>
-<br><br>
-<div class="container my-4">
-  <table class="table" id="myTable">
-  <thead>
-    <tr>
-      <th scope="col">Sno</th>
-      <th scope="col">Teamname</th>
-      <th scope="col">Uploaded File</th>
-    </tr>
-  </thead>
-  <tbody>
 
 
-    <?php
-  include 'dbconnect.php';
-      $sql1 = "SELECT Sno, teamname, uploadfile FROM round1";
-      $result = mysqli_query($conn, $sql1);
-      $sno = 0;
-      while($row = mysqli_fetch_assoc($result)) {
-        $sno = $sno + 1;
-        echo "  <tr>
-            <th scope='row'>". $sno ."</th>
-            <td>". $row['teamname'] ."</td> "?>
-            <td>  <a href ="<?php echo "uploads/".$row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
-<?php  echo"
-          </tr> ";
+<div class="container">
+  <br><br>
+<h2 class="text-center">ROUND 4 SUBMISSIONS</h2><br><br>
+  <form class="" action="2.php" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+      <label for="TextInput" class="form-label">Teamname</label>
+      <input type="text" id="Teamname" name="Teamname" class="form-control" placeholder=" input">
+    </div>
+    <div class="form-group">
+  Youtube Link : <input type="text" name="uploadfile" id="uploadfile" placeholder="Youtube Link" style="width: 400px;">
+  </div>
+  <br>
 
-      }
-    ?>
+  <input type="submit" name="submit" value="Submit">
+  </form>
+</div>
 
-  </tbody>
-</table>
 
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
@@ -113,3 +102,22 @@ session_start();
    </script>
    </body>
  </html>
+ <?php
+ include("dbconnect.php");
+ if(isset($_POST['submit']))
+ {
+    $teamname = $_SESSION['teamname'];
+    $uploadfile = $_POST['uploadfile'];
+              $ins=mysqli_query($conn, "INSERT INTO round4(teamname, uploadfile) VALUES('$teamname','$filename')");
+              if($ins)
+              {
+                 echo "<script>alert('Thanks, Your contribution is submitted successfully')</script>";
+            //  echo "<script>window.open('2.php','_self')</script>";
+              }
+              else
+              {
+                  echo mysqli_error();
+              }
+          }
+
+ ?>
