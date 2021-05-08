@@ -118,6 +118,15 @@ body {
 /*--------------------------------------------------------------------------------------------*/
 
 
+#current {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-top: 5%;
+  padding-top: 80px;
+}
+
+
 #past {
   text-align: center;
   font-family: Poppins;
@@ -706,7 +715,7 @@ h1[id="timeline-heading"] {
 
   .rainbow {
     height: auto;
-    width: 600px !important;
+    width: 400px !important;
     margin-left: 10% !important;
     margin-right: 8% !important;
   }
@@ -725,7 +734,7 @@ h1[id="timeline-heading"] {
 
   .rainbow {
     height: auto;
-    width: 400px !important;
+    width: 400px !important; 
     margin-left: 1% !important;
     margin-right: 10% !important;
   }
@@ -1630,6 +1639,11 @@ nav {
   color: white;
   text-align: center;
   padding-top: 4%;
+}
+
+#freepik {
+  text-align: center;
+  display: block;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

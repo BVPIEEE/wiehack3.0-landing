@@ -226,8 +226,13 @@
     margin-top: 40px;
   }
 
+  #current {
+    padding-top: 15rem;
+    margin-top: 20%;
+    font-family: Poppins;
+  }
   #past {
-    margin-top: 30%;
+    margin-top: 20%;
     font-family: poppins;
     color: black;
   }
@@ -413,8 +418,8 @@
   }
 
   #timeline {
-    height: 500px;
-    width: 480px;
+    height: 480px;
+    width: 380px;
   }
 
   .rainbow {
@@ -575,6 +580,11 @@
     text-decoration: none;
     padding: 10px;
     font-size: 16px;
+  }
+  
+  #freepik {
+    text-align: center;
+    display: block;
   }
 
 }
