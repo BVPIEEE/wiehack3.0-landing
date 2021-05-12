@@ -373,7 +373,6 @@ body{
 <input type="checkbox" name="checkbox" value="check" id="agree" required> I have read and agree to the <a href="../../assets/T&CWiehack3.0.pdf" target="_blank" class="links">Terms & Conditions and Privacy Policy</a>
 <br>
 <br>
-<p><br><br>In case you face any problems during the registration process,<br>such as registration page refreshing,please fill your details in the given form: <a href="https://forms.gle/CF2bcpDRdiVdfFQp8">https://forms.gle/CF2bcpDRdiVdfFQp8</a> </p>
 <input class="login-btn" style = "color: white;" type="submit" name="submit" value="Submit">
 </form>
 </div>
