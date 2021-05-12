@@ -57,6 +57,8 @@ body{
       <h1>RULES</h1>
       <p>1) The maximum team size can be upto 4 members.<br> 2) The team must have atleast 1 female member and atmost 1 male member. <br><br>*NOTE : If your team has more than 1 male member, your team will be disqualified.
       </p>
+      <p><br>In case you face any problems during the registration process,<br>such as registration page refreshing,please fill your details in the given form:</p>
+     <p><a href="https://forms.gle/CF2bcpDRdiVdfFQp8">https://forms.gle/CF2bcpDRdiVdfFQp8</a></p>
     </div>
 
 
@@ -358,27 +360,20 @@ body{
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Are you an IEEE Member?</label>
-     <select id="linkedin4" name="linkedin4" style="width: 25%" class="form-select" required>
+     <select id="linkedin4" name="linkedin4" style="width: 25%"
+     class="form-select" required>
         <option> Select</option>
         <option> Yes</option>
         <option> No</option>
       </select>
-    <!--  <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> -->
-    </div>
-   <!-- <div class="mb-3">
-      <label for="TextInput" class="form-label"> Portfolio(If Any)</label>
-      <input type="text" id="portfolio2" name="portfolio2" class="form-control" style="width: 70%" placeholder="Portfolio Link">
-    </div> -->
-
-
-
+     </div>
 
 <br>
 
-<input type="checkbox" name="checkbox" value="check" id="agree" required> I have read and agree to the <a href="../../assets/T&CWiehack3.0.pdf" target="_blank" class="links">Terms & Conditions and Privacy Policy</a> 
+<input type="checkbox" name="checkbox" value="check" id="agree" required> I have read and agree to the <a href="../../assets/T&CWiehack3.0.pdf" target="_blank" class="links">Terms & Conditions and Privacy Policy</a>
 <br>
 <br>
-
+<p><br><br>In case you face any problems during the registration process,<br>such as registration page refreshing,please fill your details in the given form: <a href="https://forms.gle/CF2bcpDRdiVdfFQp8">https://forms.gle/CF2bcpDRdiVdfFQp8</a> </p>
 <input class="login-btn" style = "color: white;" type="submit" name="submit" value="Submit">
 </form>
 </div>
@@ -416,7 +411,7 @@ body{
     $branch1 = $_POST["branch1"];
     $github2 = $_POST["github2"];
     $linkedin2 = $_POST["linkedin2"];
-    //$portfolio2 = $_POST["portfolio2"];
+
 
     $name3 = $_POST["name3"];
     $email3 = $_POST["email3"];
@@ -428,7 +423,7 @@ body{
     $branch2 = $_POST["branch2"];
     $github3 = $_POST["github3"];
     $linkedin3 = $_POST["linkedin3"];
-    //$portfolio3 = $_POST["portfolio3"];
+
 
     $name4 = $_POST["name4"];
     $email4 = $_POST["email4"];
@@ -440,7 +435,6 @@ body{
     $branch3 = $_POST["branch3"];
     $github4 = $_POST["github4"];
     $linkedin4 = $_POST["linkedin4"];
-    //$portfolio4 = $_POST["portfolio4"];
     $uploadfile = "http://postalpincode.in/api/pincode/" . $collegepin1;
 
     // Check whether this username exists
