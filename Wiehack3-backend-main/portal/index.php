@@ -57,11 +57,14 @@ body{
       <h1>RULES</h1>
       <p>1) The maximum team size can be upto 4 members.<br> 2) The team must have atleast 1 female member and atmost 1 male member. <br><br>*NOTE : If your team has more than 1 male member, your team will be disqualified.
       </p>
-      <p><br>In case you face any problems during the registration process,<br>such as registration page refreshing,please fill your details in the given form:</p>
-     <p><a href="https://forms.gle/CF2bcpDRdiVdfFQp8">https://forms.gle/CF2bcpDRdiVdfFQp8</a></p>
     </div>
 
 
+    <div style="text-align: center;">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfF5Y-QKq2bTHnmFS0Dbw58G-uJ1dSkrPTsN9-ZWmdXTxfjWg/viewform?embedded=true" width="640" height="3145" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+<br><br>
+<!--
 
 <div class="container-fluid my-4">
 <form action="index.php" method="post" enctype="multipart/form-data" style="margin-left: 20%">
@@ -127,7 +130,7 @@ body{
         <option> 3rd</option>
         <option> 4th</option>
       </select>
-    <!-- <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required> -->
+     <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required>
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Are you an IEEE Member? <span style="color: red">*</span></label>
@@ -136,7 +139,7 @@ body{
         <option> Yes</option>
         <option> No</option>
       </select>
-    <!--  <input type="text" id="linkedin" name="linkedin" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> -->
+     <input type="text" id="linkedin" name="linkedin" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required>
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label">Where did you hear about Wiehack?</label>
@@ -152,7 +155,7 @@ body{
         <option> BVPIEEE's Email</option>
         <option> Other</option>
       </select>
-   <!--   <input type="text" id="portfolio" name="portfolio" class="form-control" style="width: 70%" placeholder="Portfolio Link"> -->
+     <input type="text" id="portfolio" name="portfolio" class="form-control" style="width: 70%" placeholder="Portfolio Link">
     </div>
 
 <label for="Select" class="form-label"> Team members(Including Team Leader) <span style="color: red">*</span></label>
@@ -218,7 +221,7 @@ body{
         <option> 3rd</option>
         <option> 4th</option>
       </select>
-    <!-- <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required> -->
+    <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required>
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Are you an IEEE Member?</label>
@@ -227,12 +230,12 @@ body{
         <option> Yes</option>
         <option> No</option>
       </select>
-    <!--  <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> -->
+     <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> 
     </div>
-   <!-- <div class="mb-3">
+   <div class="mb-3">
       <label for="TextInput" class="form-label"> Portfolio(If Any)</label>
       <input type="text" id="portfolio2" name="portfolio2" class="form-control" style="width: 70%" placeholder="Portfolio Link">
-    </div> -->
+    </div>
 
 
     <br><br><br>
@@ -287,7 +290,7 @@ body{
         <option> 3rd</option>
         <option> 4th</option>
       </select>
-    <!-- <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required> -->
+     <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required>
     </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Are you an IEEE Member?</label>
@@ -296,12 +299,12 @@ body{
         <option> Yes</option>
         <option> No</option>
       </select>
-    <!--  <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> -->
+     <input type="text" id="linkedin2" name="linkedin2" class="form-control" style="width: 70%" placeholder="LinkedIn Profile" required> 
     </div>
-   <!-- <div class="mb-3">
+    <div class="mb-3">
       <label for="TextInput" class="form-label"> Portfolio(If Any)</label>
       <input type="text" id="portfolio2" name="portfolio2" class="form-control" style="width: 70%" placeholder="Portfolio Link">
-    </div> -->
+    </div>
 
 
 
@@ -356,8 +359,8 @@ body{
         <option> 3rd</option>
         <option> 4th</option>
       </select>
-    <!-- <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required> -->
-    </div>
+    <input type="text" id="github" name="github" class="form-control" style="width: 70%" placeholder="Github Profile" required>
+  </div>
     <div class="mb-3">
       <label for="TextInput" class="form-label"> Are you an IEEE Member?</label>
      <select id="linkedin4" name="linkedin4" style="width: 25%"
@@ -379,7 +382,7 @@ body{
 
 <?php
 
-  $showerror = false;
+/*  $showerror = false;
   include("dbconnect.php");
   if(isset($_POST['submit']))
   {
@@ -443,7 +446,7 @@ body{
     if($numExistRows > 0){
         // $exists = true;
         $showerror = true;
-  /*  echo "                   " . "Teamname Already Exists"; */
+  /*  echo "                   " . "Teamname Already Exists";
     }
       else{
 $hash = password_hash($password, PASSWORD_DEFAULT);
@@ -465,8 +468,8 @@ $hash = password_hash($password, PASSWORD_DEFAULT);
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
       </button>
-  </div> ';
-} ?>
+  </div> ';*/
+ ?> -->
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
