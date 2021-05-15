@@ -7,24 +7,25 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $password = $_POST["password"];
 
 
-     $sql = "Select * from portal where teamname ='$teamname'";
+     $sql = "Select * from portal where teamname='$teamname' AND 
+     password='$password'";
     $result = mysqli_query($conn, $sql);
     $num = mysqli_num_rows($result);
-  //if ($num == 1){
-        while($row=mysqli_fetch_assoc($result)){
-            if (password_verify($password, $row['password'])){
+if ($num == 1){
+      // while($row=mysqli_fetch_assoc($result)){
+     // if (password_verify($password, $row['password'])){
                 $login = true;
                 session_start();
                 $_SESSION['loggedin'] = true;
                 $_SESSION['teamname'] = $teamname;
-                $_SESSION['password'] = $password;
+              // $_SESSION['password'] = $password;
                 header("location: team1.php");
             }
             else{
                           $showError = "Invalid Credentials";
                       }
 
-    }
+
 }
 
 
