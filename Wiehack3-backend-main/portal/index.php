@@ -42,8 +42,8 @@ body{
       <img src="../../assets/wiehacklogo3.png" class="wiehack-logo">
       <img src="../../assets/bvpieeelogo.png" class="bvpieee-logo">
       <ul class="nav-links">
-        <li><a href="../../index.html" class="login-btn">Home</a></li>
-        <li class="links"><a href="../../assets/rulebook1.pdf" target="_blank">Rulebook</a></li>
+        <li><a href="../../index.html" class="login" style="margin-top: 40px;">Home</a></li>
+        <li class="links login-btn"><a href="../../assets/rulebook.pdf" target="_blank">Rulebook</a></li>
       </ul>
       <div class="burger">
         <div class="line1"></div>
@@ -54,14 +54,14 @@ body{
 
 
     <div id="rules">
-      <h1>RULES</h1>
-      <p>1) The maximum team size can be upto 4 members.<br> 2) The team must have atleast 1 female member and atmost 1 male member. <br><br>*NOTE : If your team has more than 1 male member, your team will be disqualified.
+      <p style="margin-right: 80px; text-align: center;">*NOTE : The team must have atleast 1 female member. <br>If your team has more than 1 male member, your team will be disqualified.</p> 
+      <p style=" margin-right: 50px;"> For More details  <a class="" href="../../assets/rulebook.pdf" style="padding-right: 10px; padding-left: 10px;" target="_blank"> Click Here </a> to see the Rulebook.
       </p>
     </div>
 
 
     <div style="text-align: center;">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfF5Y-QKq2bTHnmFS0Dbw58G-uJ1dSkrPTsN9-ZWmdXTxfjWg/viewform?embedded=true" width="640" height="3145" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfF5Y-QKq2bTHnmFS0Dbw58G-uJ1dSkrPTsN9-ZWmdXTxfjWg/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 <br><br>
 <!--
