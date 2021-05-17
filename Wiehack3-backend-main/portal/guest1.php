@@ -52,8 +52,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
   <h2>Enter marks for each team with respect to criterias</h2>
 <br>
 <form class="" action="guest1.php" method="post">
-  <div class="form-group row">
-    <div class="col-lg-4">
+  <div class="form-group row" style="visibility: hidden;">
+    <div class="col-lg-4" sty>
       <label for="">Username</label>
     </div>
     <div class="col-lg-6">
@@ -65,7 +65,13 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
       <label for="">Team Name</label>
     </div>
     <div class="col-lg-6">
-      <input type="text" class="form-control" name="teamname" id="teamname" value="">
+    <!--  <input type="text" class="form-control" name="teamname" id="teamname" value=""> -->
+  <select class="form-control" name="teamname" id="teamname">
+    <option>Team1</option>
+    <option>Team2</option>
+    <option>Team3</option>
+    <option>Team4</option>
+  </select>
     </div>
   </div>
 
@@ -96,33 +102,66 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 <br><br>
 
 
+ <div class="conatainer">
+   <?php
+   include("dbconnect.php");
+   if(isset($_POST['submit']))
+   {   $username = $_SESSION['username'];
+        $teamname = $_POST["teamname"];
+        $criteria1 = $_POST["criteria1"];
+        $criteria2 = $_POST["criteria2"];
+        $total = $criteria1 + $criteria2;
+        $sql = "INSERT INTO judge1(username, teamname, criteria1, criteria2, total) VALUES('$username', '$teamname', '$criteria1', '$criteria2', '$total')";
+        $result = mysqli_query($conn, $sql);
+        if($result) {
+           echo "    Data is inserted successfully";
+        } else {
+       echo "Something is wrong". mysqli_error();
+        }
+      }
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+   ?>
+ </div> <br>
+ <div class="container">
+   <table class="table" id="myTable">
+   <thead>
+     <tr>
+       <th scope="col">Sno</th>
+       <th scope="col">Teamname</th>
+       <th scope="col">Uploaded File</th>
+     </tr>
+   </thead>
+   <tbody>
 
 
-   <script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js">
+     <?php
+   include 'dbconnect.php';
+       $sql1 = "SELECT Sno, teamname, uploadfile FROM round3";
+       $result = mysqli_query($conn, $sql1);
+       $sno = 0;
+       while($row = mysqli_fetch_assoc($result)) {
+         $sno = $sno + 1;
+         echo "  <tr>
+             <th scope='row'>". $sno ."</th>
+             <td>". $row['teamname'] ."</td> "?>
+             <td>  <a href ="<?php echo "uploads/".$row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
+ <?php  echo"
+           </tr> ";
+
+       }
+     ?>
+   </tbody>
+ </table>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+
+<script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js">
    </script>
    </body>
- </html>
-
-<?php
-include("dbconnect.php");
-if(isset($_POST['submit']))
-{   $username = $_SESSION['username'];
-     $teamname = $_POST["teamname"];
-     $criteria1 = $_POST["criteria1"];
-     $criteria2 = $_POST["criteria2"];
-     $total = $criteria1 + $criteria2;
-     $sql = "INSERT INTO judge1(username, teamname, criteria1, criteria2, total) VALUES('$username', '$teamname', '$criteria1', '$criteria2', '$total')";
-     $result = mysqli_query($conn, $sql);
-     if($result) {
-        echo "Data is inserted successfully";
-     } else {
-    echo "Something is wrong". mysqli_error();
-     }
-   }
-
-?>
+</html>
