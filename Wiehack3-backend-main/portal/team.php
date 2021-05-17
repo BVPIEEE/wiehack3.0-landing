@@ -24,10 +24,7 @@ if ($num == 1){
             else{
                           $showError = "Invalid Credentials";
                       }
-
-
 }
-
 
 ?>
 
