@@ -25,7 +25,7 @@ echo '
                <li><a href="2.php" class="link"><span class="fa fa-upload"></span><span>Round 2</span></a></li>
                <li><a href="3.php" class="link"><span class="fa fa-upload"></span><span>Round 3</span></a></li>
                <li><a href="4.php" class="link"><span class="fa fa-upload"></span><span>Round 4</span></a></li>
-               <li><a href="https://discord.gg/cf44CfGR" class="link"><span class="fa fa-discord"></span><span>Discord</span></a></li>
+               <li><a href="https://discord.gg/cf44CfGR" class="link"><span class="fab fa-discord"></span><span>Discord</span></a></li>
               <li><a class="link" href="logout.php"><span class="fa fa-sign-out"><span></span>Logout</span></a>
                </li>';
 
