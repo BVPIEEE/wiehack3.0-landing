@@ -27,7 +27,7 @@ echo "<script>window.open('team.php','_self')</script>";
     <title>Login</title>
   </head>
   <body>
-    <div class="container my-4">
+    <!-- <div class="container my-4">
      <h1 class="text-center">Login to our website</h1>
      <form action="team.php" method="post">
         <div class="form-group">
@@ -44,7 +44,7 @@ echo "<script>window.open('team.php','_self')</script>";
         <button type="submit" class="btn btn-primary">Login</button>
      </form>
     <br>
-      <a href="edit_password.php" data-toggle="modal" data-target="#staticBackdrop">Forgot Password?</a>
+      <a href="edit_password.php" data-toggle="modal" data-target="#staticBackdrop">Forgot Password?</a> -->
 
     </div>
       <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">

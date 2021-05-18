@@ -7,7 +7,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $password = $_POST["password"];
 
 
-     $sql = "Select * from portal where teamname='$teamname' AND 
+     $sql = "Select * from portal where teamname='$teamname' AND
      password='$password'";
     $result = mysqli_query($conn, $sql);
     $num = mysqli_num_rows($result);
@@ -39,7 +39,7 @@ if ($num == 1){
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+
 <style>
 body {
     background: #242582;
@@ -48,7 +48,7 @@ body {
 .forgot {
 	font-family: Poppins;
 	font-weight: 400;
-}	
+}
 
 .logo {
   text-align: center;
@@ -100,7 +100,7 @@ input[type=username] {
     outline: 0;
     margin-bottom: 20px;
     padding-left: 0px;
-    color: black; 
+    color: black;
 }
 
 input[type=password] {
@@ -179,7 +179,7 @@ label {
 
 .loginbttm {
     padding: 0px;
-}		
+}
 </style>
 
     <title>Login</title>
@@ -204,7 +204,7 @@ label {
       </div> ';
       }
       ?>
-   
+
    <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-2"></div>
@@ -213,7 +213,7 @@ label {
                     <img src="../../assets/wiehacklogo3.1.png" class = "logo">
                 </div>
                 <div class="col-lg-12 login-title">
-                    WIEHACK3.0 
+                    WIEHACK3.0
                 </div>
                 <form action="team.php" method="post">
                 <div class="col-lg-12 login-form">
@@ -236,7 +236,37 @@ label {
                         </form>
                     </div>
                 </div>
-               <a class = "forgot" href="edit_password.php">Forgot Password?</a>
+               <a class = "forgot" href="#" data-toggle="modal" data-target="#staticBackdrop">Forgot Password?</a>
+               <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-size">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="../../assets/wiehacklogo3.png" class="wiehack-logo"  width="40px" height="40px">
+                    <h4 class="modal-title" id="staticBackdropLabel" style="padding-left: 20px;">WIEHACK</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      <!------------>
+                      <div class="signup-form">
+                          <form action="edit_password.php" method="post">
+                          <h4>Request to Change Password</h4><hr class="hr1">
+
+                              <div class="form-group">
+                                <input type="text" class="form-control input-lg" name="teamname" placeholder="teamname" required="required">
+                              </div>
+                          <div class="form-group">
+                                <input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
+                              </div>
+                          <div class="form-group">
+                                 <input class="login-btn" style = "color: black;" type="submit" name="submit" value="Submit">
+                              </div>
+                          </form>
+                      </div>
+                      <!------------------->
+              </div>
+             </div>
             </div>
         </div>
 
