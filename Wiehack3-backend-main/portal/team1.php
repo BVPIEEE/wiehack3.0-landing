@@ -27,7 +27,7 @@ echo '
                <li><a href="4.php" class="link"><span class="fa fa-upload"></span><span>Round 4</span></a></li>
                <li><a href="5.php" class="link"><span class="fa fa-upload"></span><span>Round 5</span></a></li>
                <li><a href="https://discord.gg/cf44CfGR" class="link"><span class="fab fa-discord"></span><span>Discord</span></a></li>
-              <li>/*<a class="link" href="logout.php"><span class="fa fa-sign-out"><span></span>Logout</span></a>*/
+              <li><a  href="logout.php" class="link" ><span class="fas fa-sign-out-alt"><span></span>Logout</span></a>
                </li>';
 
 echo '    </ul>
@@ -414,7 +414,7 @@ main {
                  <label for="nav-toggle">
                      <span class="fa fa-bars"></span>
                  </label>
-                 Welcome, <?php echo $teamname; ?> <a class="link" href="logout.php"><span style="margin-left: 550px;">Logout</span></a>
+                 Welcome, <?php echo $teamname; ?>
              </h2>
          </div>
      </header>
