@@ -509,7 +509,7 @@
   */
   
   .accordian {
-    width: 855px; height: 320px;
+    width: 555px; height: 320px;
     overflow: hidden;
     background-color: -webkit-linear-gradient(to bottom right, #050e3b, #33032f);;
     
@@ -537,7 +537,7 @@
   .accordian li {
     position: relative;
     display: block;
-    width: 90px;
+    width: 60px;
     float: left;
     
     border-left: 1px solid #888;
