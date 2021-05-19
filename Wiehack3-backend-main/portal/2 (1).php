@@ -81,47 +81,14 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
 <div class="container">
   <br><br>
-<h2 class="text-center">ROUND 1 SUBMISSIONS</h2> <br><br>
-  <form class="" action="1.php" method="post" enctype="multipart/form-data">
+<h2 class="text-center">ROUND 2 SUBMISSIONS</h2><br><br>
+  <form class="" action="2.php" method="post" enctype="multipart/form-data">
     <div class="mb-3">
       <label for="TextInput" class="form-label">Teamname</label>
-      <input type="text" id="teamname" name="teamname" class="form-control" placeholder="Teamname">
-    </div>
-    <div class="mb-3">
-      <label for="TextInput" class="form-label">Linkedin Profile Link</label>
-      <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Linkedin Profile Link">
-    </div>
-    <div class="mb-3">
-      <label for="TextInput" class="form-label">Github Profile Link</label>
-      <input type="text" id="github" name="github" class="form-control" placeholder="Github Profile Link">
-    </div>
-    <div class="mb-3">
-      <label for="TextInput" class="form-label">Linkedin Profile Link (if any)</label>
-      <input type="text" id="linkedin1" name="linkedin1" class="form-control" placeholder="Linkedin Profile Link">
-    </div>
-    <div class="mb-3">
-      <label for="TextInput" class="form-label">Github Profile Link (if any)</label>
-      <input type="text" id="github1" name="github1" class="form-control" placeholder="Github Profile Link">
-    </div>
-    <div class="mb-3">
-      <label for="TextInput" class="form-label">Linkedin Profile Link (if any)</label>
-      <input type="text" id="linkedin2" name="linkedin2" class="form-control" placeholder="Linkedin Profile Link">
-    </div>
-    <div class="mb-3">
-      <label for="TextInput" class="form-label">Github Profile Link (if any)</label>
-      <input type="text" id="github2" name="github2" class="form-control" placeholder="Github Profile Link">
-    </div>
-    <div class="mb-3">
-      <label for="TextInput" class="form-label">Linkedin Profile Link (if any)</label>
-      <input type="text" id="linkedin3" name="linkedin3" class="form-control" placeholder="Linkedin Profile Link">
-    </div>
-    <div class="mb-3">
-      <label for="TextInput" class="form-label">Github Profile Link (if any)</label>
-      <input type="text" id="github3" name="github3" class="form-control" placeholder="Github Profile Link">
+      <input type="text" id="Teamname" name="Teamname" class="form-control" placeholder=" input">
     </div>
     <div class="form-group">
-  Abstract : <textarea name="uploadfile" id="uploadfile" rows="8" cols="80"></textarea>
-  <!--<input type="file" name="file" id="file" placeholder="File" value="Choose File">-->
+  Pdf File : <input type="file" name="file" id="file" placeholder="File" value="Choose File">
   </div>
   <br>
 
@@ -146,18 +113,14 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
  if(isset($_POST['submit']))
  {
     $teamname = $_SESSION['teamname'];
-    $linkedin = $_POST['linkedin'];
-    $github = $_POST['github'];
-     $linkedin1 = $_POST['linkedin1'];
-    $github1 = $_POST['github1'];
-     $linkedin2 = $_POST['linkedin2'];
-    $github2 = $_POST['github2'];
-     $linkedin3 = $_POST['linkedin3'];
-    $github3 = $_POST['github3'];
-    $uploadfile = $_POST['uploadfile'];
 
+ $filename = $_FILES['file']['name'];
+ $tmpname  = $_FILES['file']['tmp_name'];
+ $folder = "uploads/".basename($filename);
 
-              $ins=mysqli_query($conn, "INSERT INTO round2(teamname, linkedin, github, linkedin1, github1, linkedin2, github2, linkedin3, github3, uploadfile) VALUES('$teamname', '$linkedin', '$github', '$linkedin1', '$github1', '$linkedin2', '$github2', '$linkedin3', '$github3', '$uploadfile')");
+          move_uploaded_file($tmpname,$folder);
+
+              $ins=mysqli_query($conn, "INSERT INTO round1(teamname, uploadfile) VALUES('$teamname','$filename')");
               if($ins)
               {
                  echo "<script>alert('Thanks, Your contribution is submitted successfully')</script>";

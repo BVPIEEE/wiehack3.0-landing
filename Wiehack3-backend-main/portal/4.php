@@ -82,7 +82,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 <div class="container">
   <br><br>
 <h2 class="text-center">ROUND 4 SUBMISSIONS</h2><br><br>
-  <form class="" action="2.php" method="post" enctype="multipart/form-data">
+  <form class="" action="4.php" method="post" enctype="multipart/form-data">
     <div class="mb-3">
       <label for="TextInput" class="form-label">Teamname</label>
       <input type="text" id="Teamname" name="Teamname" class="form-control" placeholder=" input">
@@ -114,7 +114,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
  {
     $teamname = $_SESSION['teamname'];
     $uploadfile = $_POST['uploadfile'];
-              $ins=mysqli_query($conn, "INSERT INTO round4(teamname, uploadfile) VALUES('$teamname','$filename')");
+              $ins=mysqli_query($conn, "INSERT INTO round3(teamname, uploadfile) VALUES('$teamname','$uploadfile')");
               if($ins)
               {
                  echo "<script>alert('Thanks, Your contribution is submitted successfully')</script>";

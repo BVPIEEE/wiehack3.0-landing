@@ -82,15 +82,15 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
 <div class="container">
   <br><br>
-<h2 class="text-center">ROUND 4 SUBMISSIONS</h2><br><br>
-  <form class="" action="2.php" method="post" enctype="multipart/form-data">
+<h2 class="text-center">ROUND 5 SUBMISSIONS</h2><br><br>
+  <form class="" action="5.php" method="post" enctype="multipart/form-data">
     <div class="mb-3">
       <label for="TextInput" class="form-label">Teamname</label>
-      <input type="text" id="Teamname" name="Teamname" class="form-control" placeholder=" input">
+      <input type="text" id="Teamname" name="Teamname" class="form-control" placeholder=" Teamname">
     </div>
     <div class="form-group">
-  Youtube Link : <input type="text" name="uploadfile" id="uploadfile" placeholder="Youtube Link" style="width: 400px;">
-  </div>
+  Github Repository Link : <input type="text" name="github" id="github" placeholder="Github Repository Link" style="width: 400px;">
+  </div> <br>
   <div class="form-group">
 Pdf File : <input type="file" name="file" id="file" placeholder="File" value="Choose File">
 </div>
@@ -117,13 +117,17 @@ Pdf File : <input type="file" name="file" id="file" placeholder="File" value="Ch
  if(isset($_POST['submit']))
  {
     $teamname = $_SESSION['teamname'];
-    $youtube = $_SESSION['youtube'];
-    $uploadfile = $_POST['uploadfile'];
-              $ins=mysqli_query($conn, "INSERT INTO round5(teamname, youtube, uploadfile) VALUES('$teamname', '$youtube', '$filename')");
+    $github = $_POST['github'];
+    $filename = $_FILES['file']['name'];
+ $tmpname  = $_FILES['file']['tmp_name'];
+ $folder = "uploads/".basename($filename);
+
+          move_uploaded_file($tmpname,$folder);
+
+              $ins=mysqli_query($conn, "INSERT INTO round5(teamname, github, uploadfile) VALUES('$teamname', '$github', '$filename')");
               if($ins)
               {
                  echo "<script>alert('Thanks, Your contribution is submitted successfully')</script>";
-            //  echo "<script>window.open('2.php','_self')</script>";
               }
               else
               {

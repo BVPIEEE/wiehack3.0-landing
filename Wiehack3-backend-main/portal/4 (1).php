@@ -20,39 +20,39 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
      </button>
      <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="team1.php">Home</a>
+         </li>
        <li class="nav-item">
-         <a class="nav-link active" aria-current="page" href="team1.php">Home</a>
-       </li>
-     <li class="nav-item">
-         <a class="nav-link active" aria-current="page" href="1.php">Round 1</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link active" aria-current="page" href="2.php">Round 2</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link active" aria-current="page" href="3.php">Round 3</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link active" aria-current="page" href="4.php">Round 4</a>
-       </li> <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="5.php">Round 5</a>
-        </li>
+           <a class="nav-link active" aria-current="page" href="1.php">Round 1</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="2.php">Round 2</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="3.php">Round 3</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="4.php">Round 4</a>
+         </li> <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="5.php">Round 5</a>
+          </li>
 
-       <!--    <li class="nav-item">
-  <a class="nav-link disabled" href="1.php" tabindex="-1" aria-disabled="true">Round 1</a>
-</li>
+         <!--    <li class="nav-item">
+    <a class="nav-link disabled" href="1.php" tabindex="-1" aria-disabled="true">Round 1</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link disabled" href="2.php" tabindex="-1" aria-disabled="true">Round 2</a>
+  </li>
   <li class="nav-item">
-  <a class="nav-link disabled" href="2.php" tabindex="-1" aria-disabled="true">Round 2</a>
-</li>
-<li class="nav-item">
-<a class="nav-link disabled" href="3.php" tabindex="-1" aria-disabled="true">Round 3</a>
-</li>
-<li class="nav-item">
-<a class="nav-link disabled" href="4.php" tabindex="-1" aria-disabled="true">Round 4</a>
-</li>
-<li class="nav-item">
-<a class="nav-link disabled" href="5.php" tabindex="-1" aria-disabled="true">Round 5</a>
-</li> -->
+ <a class="nav-link disabled" href="3.php" tabindex="-1" aria-disabled="true">Round 3</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link disabled" href="4.php" tabindex="-1" aria-disabled="true">Round 4</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link disabled" href="5.php" tabindex="-1" aria-disabled="true">Round 5</a>
+ </li> -->
          </ul>';
 
            if($loggedin){
@@ -81,14 +81,14 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
 
 <div class="container">
   <br><br>
-<h2 class="text-center">ROUND 2 SUBMISSIONS</h2><br><br>
+<h2 class="text-center">ROUND 4 SUBMISSIONS</h2><br><br>
   <form class="" action="2.php" method="post" enctype="multipart/form-data">
     <div class="mb-3">
       <label for="TextInput" class="form-label">Teamname</label>
-      <input type="text" id="teamname" name="teamname" class="form-control" placeholder="Teamname">
+      <input type="text" id="Teamname" name="Teamname" class="form-control" placeholder=" input">
     </div>
     <div class="form-group">
-  Pdf File : <input type="file" name="file" id="file" placeholder="File" value="Choose File">
+  Youtube Link : <input type="text" name="uploadfile" id="uploadfile" placeholder="Youtube Link" style="width: 400px;">
   </div>
   <br>
 
@@ -113,14 +113,8 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
  if(isset($_POST['submit']))
  {
     $teamname = $_SESSION['teamname'];
-
- $filename = $_FILES['file']['name'];
- $tmpname  = $_FILES['file']['tmp_name'];
- $folder = "uploads/".basename($filename);
-
-          move_uploaded_file($tmpname,$folder);
-
-              $ins=mysqli_query($conn, "INSERT INTO round1(teamname, uploadfile) VALUES('$teamname','$filename')");
+    $uploadfile = $_POST['uploadfile'];
+              $ins=mysqli_query($conn, "INSERT INTO round4(teamname, uploadfile) VALUES('$teamname','$filename')");
               if($ins)
               {
                  echo "<script>alert('Thanks, Your contribution is submitted successfully')</script>";
