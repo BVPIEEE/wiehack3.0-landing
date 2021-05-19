@@ -69,10 +69,9 @@ session_start();
 
    </head>
    <body>
-
-     <br>
-     <h2 class="text-center">Sample scores </h2>
-     <br><br>
+<br>
+<h2 class="text-center">Sample1 scores </h2>
+<br><br>
 <div class="container my-4">
   <table class="table" id="myTable">
   <thead>
@@ -90,7 +89,7 @@ session_start();
 
     <?php
   include 'dbconnect.php';
-       $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1 WHERE username='Sample'";
+      $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1 WHERE username='Sample3'";
       $result = mysqli_query($conn, $sql1);
       $sno = 0;
       while($row = mysqli_fetch_assoc($result)) {

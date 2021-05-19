@@ -44,6 +44,7 @@ session_start();
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="round5_score.php">Round 5</a>
          </li>
+
          </ul>';
 
            if($loggedin){
@@ -69,20 +70,16 @@ session_start();
 
    </head>
    <body>
-
-     <br>
-     <h2 class="text-center">Sample scores </h2>
-     <br><br>
+<br>
+<h2 class="text-center">Round 3 scores </h2>
+<br><br>
 <div class="container my-4">
   <table class="table" id="myTable">
   <thead>
     <tr>
       <th scope="col">Sno</th>
-      <th scope="col">Username</th>
       <th scope="col">Teamname</th>
-      <th scope="col">criteria1</th>
-      <th scope="col">criteria2</th>
-      <th scope="col">Total Marks</th>
+      <th scope="col">Uploaded File</th>
     </tr>
   </thead>
   <tbody>
@@ -90,19 +87,19 @@ session_start();
 
     <?php
   include 'dbconnect.php';
-       $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1 WHERE username='Sample'";
+      $sql1 = "SELECT Sno, teamname, uploadfile FROM round4";
       $result = mysqli_query($conn, $sql1);
       $sno = 0;
       while($row = mysqli_fetch_assoc($result)) {
         $sno = $sno + 1;
         echo "  <tr>
             <th scope='row'>". $sno ."</th>
-            <th scope='row'>". $row['username'] ."</th>
-          <td>". $row['teamname'] ."</td>
-            <td>". $row['criteria1'] ."</td>
-              <td>". $row['criteria2'] ."</td>
-        <td>". $row['Total'] ." </td>";
-             echo "</tr> ";
+            <td>". $row['teamname'] ."</td> "?>
+            <td>  <a href ="<?php echo $row['youtube']; ?>" > <?php echo $row['youtube'] ?> </a></td>
+              <td>  <a href ="<?php echo "uploads/".$row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
+
+<?php  echo"
+          </tr> ";
 
       }
     ?>

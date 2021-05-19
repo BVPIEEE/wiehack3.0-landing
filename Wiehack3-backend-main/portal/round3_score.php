@@ -41,7 +41,9 @@ session_start();
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="round3_score.php">Round 4</a>
          </li>
-
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round5_score.php">Round 5</a>
+         </li>
          </ul>';
 
            if($loggedin){
@@ -92,8 +94,8 @@ session_start();
         echo "  <tr>
             <th scope='row'>". $sno ."</th>
             <td>". $row['teamname'] ."</td> "?>
-            <td>  <a href ="<?php echo "uploads/".$row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
-<?php  echo"
+              <td>  <a href ="<?php echo $row['youtube']; ?>" > <?php echo $row['youtube'] ?> </a></td>
+      <?php  echo"
           </tr> ";
 
       }

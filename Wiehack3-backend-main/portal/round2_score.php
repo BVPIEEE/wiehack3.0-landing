@@ -41,6 +41,9 @@ session_start();
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="round3_score.php">Round 4</a>
          </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round5_score.php">Round 5</a>
+         </li>
 
          </ul>';
 

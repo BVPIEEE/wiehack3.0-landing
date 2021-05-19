@@ -29,11 +29,20 @@ session_start();
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="judge2.php">Judge2</a>
          </li>
-                  <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round1_score.php">Round 1</a>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round2_score.php">Round 1 </a>
          </li>
-           <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 3</a>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round1_score.php">Round 2 </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round4_scores.php">Round 3 </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round3_score.php">Round 4</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="round5_score.php">Round 5</a>
          </li>
          </ul>';
 
