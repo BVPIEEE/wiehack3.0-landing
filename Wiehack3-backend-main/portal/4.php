@@ -88,7 +88,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
       <input type="text" id="Teamname" name="Teamname" class="form-control" placeholder=" input">
     </div>
     <div class="form-group">
-  Youtube Link : <input type="text" name="uploadfile" id="uploadfile" placeholder="Youtube Link" style="width: 400px;">
+  Youtube Link : <input type="url" name="uploadfile" id="uploadfile" placeholder="Youtube Link" style="width: 400px;">
   </div>
   <br>
 
@@ -114,7 +114,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
  {
     $teamname = $_SESSION['teamname'];
     $uploadfile = $_POST['uploadfile'];
-              $ins=mysqli_query($conn, "INSERT INTO round3(teamname, uploadfile) VALUES('$teamname','$uploadfile')");
+              $ins=mysqli_query($conn, "INSERT INTO round4(teamname, uploadfile) VALUES('$teamname','$uploadfile')");
               if($ins)
               {
                  echo "<script>alert('Thanks, Your contribution is submitted successfully')</script>";

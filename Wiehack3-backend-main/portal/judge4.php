@@ -23,7 +23,7 @@ session_start();
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="admin1.php">Home</a>
          </li>
-       <li class="nav-item">
+         <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="judge1.php">Judge1</a>
          </li>
          <li class="nav-item">
@@ -101,7 +101,7 @@ session_start();
 
     <?php
   include 'dbconnect.php';
-      $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1 WHERE username='Sample1'";
+      $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1 WHERE username='joinal@456'";
       $result = mysqli_query($conn, $sql1);
       $sno = 0;
       while($row = mysqli_fetch_assoc($result)) {

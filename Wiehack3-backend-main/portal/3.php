@@ -88,7 +88,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
       <input type="text" id="teamname" name="teamname" class="form-control" placeholder="Teamname">
     </div>
     <div class="form-group">
-  Pdf File : <input type="file" name="file" id="file" placeholder="File" value="Choose File">
+  Pdf File : <input type="file" name="file" id="file" placeholder="File" accept="application/pdf" value="Choose File">
   </div>
   <br>
 

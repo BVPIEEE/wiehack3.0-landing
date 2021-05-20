@@ -30,6 +30,18 @@ session_start();
            <a class="nav-link active" aria-current="page" href="judge2.php">Judge2</a>
          </li>
          <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge3.php">Judge3</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge4.php">Judge4</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge5.php">Judge5</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge6.php">Judge6</a>
+         </li>
+         <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="round2_score.php">Round 1 </a>
          </li>
          <li class="nav-item">
@@ -94,7 +106,8 @@ session_start();
         echo "  <tr>
             <th scope='row'>". $sno ."</th>
             <td>". $row['teamname'] ."</td> "?>
-            <td>  <a href ="<?php echo "uploads/".$row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
+            <td>  <a href ="<?php echo $row['uploadfile']; ?>" > <?php echo $row['uploadfile'] ?> </a></td>
+            
 <?php  echo"
           </tr> ";
 

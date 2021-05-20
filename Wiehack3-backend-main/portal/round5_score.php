@@ -23,11 +23,23 @@ session_start();
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="admin1.php">Home</a>
          </li>
-         <li class="nav-item">
+        <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="judge1.php">Judge1</a>
          </li>
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="judge2.php">Judge2</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge3.php">Judge3</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge4.php">Judge4</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge5.php">Judge5</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge6.php">Judge6</a>
          </li>
          <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="round2_score.php">Round 1 </a>

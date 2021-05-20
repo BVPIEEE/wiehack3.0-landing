@@ -89,10 +89,10 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
       <input type="text" id="Teamname" name="Teamname" class="form-control" placeholder=" Teamname">
     </div>
     <div class="form-group">
-  Github Repository Link : <input type="text" name="github" id="github" placeholder="Github Repository Link" style="width: 400px;">
+  Github Repository Link : <input type="url" name="github" id="github" placeholder="Github Repository Link" style="width: 400px;">
   </div> <br>
   <div class="form-group">
-Pdf File : <input type="file" name="file" id="file" placeholder="File" value="Choose File">
+Pdf File : <input type="file" name="file" id="file" placeholder="File" accept="application/pdf" value="Choose File">
 </div>
 <br>
 

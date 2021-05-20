@@ -30,6 +30,18 @@ session_start();
            <a class="nav-link active" aria-current="page" href="judge2.php">Judge2</a>
          </li>
          <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge3.php">Judge3</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge4.php">Judge4</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge5.php">Judge5</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="judge6.php">Judge6</a>
+         </li>
+         <li class="nav-item">
            <a class="nav-link active" aria-current="page" href="round2_score.php">Round 1 </a>
          </li>
          <li class="nav-item">
@@ -90,7 +102,7 @@ session_start();
 
     <?php
   include 'dbconnect.php';
-       $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1 WHERE username='Sample'";
+       $sql1 = "SELECT sno, username, teamname, criteria1, criteria2, Total FROM judge1 WHERE username='ayon@321'";
       $result = mysqli_query($conn, $sql1);
       $sno = 0;
       while($row = mysqli_fetch_assoc($result)) {

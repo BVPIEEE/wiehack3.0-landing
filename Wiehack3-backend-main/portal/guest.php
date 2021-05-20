@@ -5,7 +5,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     include 'dbconnect.php';
     $username = $_POST["username"];
     $password = $_POST["password"];
-
+    $username = stripcslashes($username);
+    $password = stripcslashes($password);
+    $username = mysqli_real_escape_string($conn, $username);
+    $password = mysqli_real_escape_string($conn, $password);
 
     // $sql = "Select * from users where username='$username' AND password='$password'";
     $sql = "Select * from judge where username ='$username' AND password='$password'";
