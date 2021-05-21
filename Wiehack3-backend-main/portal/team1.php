@@ -21,7 +21,7 @@ echo '
            <ul>
                <li><a href="team1.php" class="link active"><span class="fa fa-window-maximize"></span><span>Dashboard</span></a></li>
                <li><a href="../../assets/rulebook.pdf" class="link" target="_blank"><span class="fa fa-book"></span><span>Rulebook</span></a></li>
-               <li><a href="1.php" class="link"><span class="fa fa-upload"></span><span>Submissions</span></a></li>
+               <li><a href="#" class="link"><span class="fa fa-upload"></span><span>Submissions</span></a></li>
                <li><a href="https://discord.gg/cf44CfGR" class="link"><span class="fab fa-discord"></span><span>Discord</span></a></li>
                <li><a  href="logout.php" class="link" ><span class="fas fa-sign-out-alt"><span></span>Logout</span></a>
                </li>';
