@@ -21,9 +21,13 @@ echo '
            <ul>
                <li><a href="team1.php" class="link active"><span class="fa fa-window-maximize"></span><span>Dashboard</span></a></li>
                <li><a href="../../assets/rulebook.pdf" class="link" target="_blank"><span class="fa fa-book"></span><span>Rulebook</span></a></li>
-               <li><a href="#" class="link"><span class="fa fa-upload"></span><span>Submissions</span></a></li>
+               <li><a href="1.php" class="link"><span class="fa fa-upload"></span><span>Round 1</span></a></li>
+               <li><a href="2.php" class="link"><span class="fa fa-upload"></span><span>Round 2</span></a></li>
+               <li><a href="3.php" class="link"><span class="fa fa-upload"></span><span>Round 3</span></a></li>
+               <li><a href="4.php" class="link"><span class="fa fa-upload"></span><span>Round 4</span></a></li>
+               <li><a href="5.php" class="link"><span class="fa fa-upload"></span><span>Round 5</span></a></li>
                <li><a href="https://discord.gg/cf44CfGR" class="link"><span class="fab fa-discord"></span><span>Discord</span></a></li>
-               <li><a  href="logout.php" class="link" ><span class="fas fa-sign-out-alt"><span></span>Logout</span></a>
+              <li><a  href="logout.php" class="link" ><span class="fas fa-sign-out-alt"><span></span>Logout</span></a>
                </li>';
 
 echo '    </ul>
@@ -416,13 +420,13 @@ main {
      </header>
 
      <div class="iframe-container">
-       <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5ghCQxKKWRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/6HjlaHv_vAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      </div>
 
      <div class="container">
-       <h2>Round 1</h2>
+       <h2>Instructions for Round 1</h2>
        <ul>
-         <li>Instructions TBD</li>
+         <li>TBD!</li>
          <!-- <li>point 2</li>
          <li>point 3</li>
          <li>point 4</li>
