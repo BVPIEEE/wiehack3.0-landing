@@ -1,2 +1,2 @@
-php_value upload_max_filesize 3M
-php_value post_max_size 4M
+php_value upload_max_filesize 20M
+php_value post_max_size 22M

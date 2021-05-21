@@ -422,11 +422,11 @@ main {
      <div class="container">
        <h2>Round 1</h2>
        <ul>
-         <li>point 1</li>
-         <li>point 2</li>
+         <li>Instructions TBD</li>
+         <!-- <li>point 2</li>
          <li>point 3</li>
          <li>point 4</li>
-         <li>point 5</li>
+         <li>point 5</li> -->
        </ul>
      </div>
 

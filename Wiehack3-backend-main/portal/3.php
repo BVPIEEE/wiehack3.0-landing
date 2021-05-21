@@ -87,6 +87,14 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
       <label for="TextInput" class="form-label">Teamname</label>
       <input type="text" id="teamname" name="teamname" class="form-control" placeholder="Teamname">
     </div>
+    <div class="mb-3">
+       <select class="form-control" name="type" id="type">
+    <option>Select</option>
+    <option>Business-To-Business</option>
+    <option>Business-To-Consumer</option>
+   
+  </select>
+    </div>
     <div class="form-group">
   Pdf File : <input type="file" name="file" id="file" placeholder="File" accept="application/pdf" value="Choose File">
   </div>
@@ -113,14 +121,14 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true) {
  if(isset($_POST['submit']))
  {
     $teamname = $_SESSION['teamname'];
-
+    $type = $_POST['type'];
  $filename = $_FILES['file']['name'];
  $tmpname  = $_FILES['file']['tmp_name'];
  $folder = "uploads/".basename($filename);
 
           move_uploaded_file($tmpname,$folder);
 
-              $ins=mysqli_query($conn, "INSERT INTO round3(teamname, uploadfile) VALUES('$teamname','$filename')");
+              $ins=mysqli_query($conn, "INSERT INTO round3(teamname, type, uploadfile) VALUES('$teamname', '$type', '$filename')");
               if($ins)
               {
                  echo "<script>alert('Thanks, Your contribution is submitted successfully')</script>";
